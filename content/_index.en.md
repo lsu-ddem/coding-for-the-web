@@ -6,4 +6,4 @@ title: "Interactive Digital Media Capstone"
 
 ## Course Description and Objectives
 
-{{% link "interactive-digital-media-capstone.pdf" %}}
+{{% link "coding-for-the-web.pdf" %}}
