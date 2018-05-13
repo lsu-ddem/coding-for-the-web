@@ -1,8 +1,8 @@
 ---
-title: "Interactive Digital Media Capstone"
+title: "Coding for the Web"
 ---
 
-# Interactive Digital Media Capstone
+# Coding for the Web
 
 ## Course Description and Objectives
 
