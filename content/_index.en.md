@@ -1,9 +1,9 @@
 ---
-title: "Digital Storytelling"
+title: "Coding for the Web"
 ---
 
-# Digital Storytelling
+# Coding for the Web
 
 ## Course Description and Objectives
 
-{{% link "digital-storytelling.pdf" %}}
+{{% link "coding-for-the-web.pdf" %}}
