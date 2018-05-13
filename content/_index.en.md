@@ -1,9 +1,9 @@
 ---
-title: "Coding for the Web"
+title: "Interactive Digital Media Capstone"
 ---
 
-# Coding for the Web
+# Interactive Digital Media Capstone
 
 ## Course Description and Objectives
 
-{{% link "coding-for-the-web.pdf" %}}
+{{% link "interactive-digital-media-capstone.pdf" %}}
