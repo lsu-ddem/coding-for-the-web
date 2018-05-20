@@ -12,7 +12,7 @@ defaultContentLanguageInSubdir= true
   description = "Educational material for Pre-Engineering"
   author = "Tate Carson"
   showVisitedLinks = true
-  themeVariant = "green"
+  themeVariant = "mine"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
