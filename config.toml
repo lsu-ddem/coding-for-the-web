@@ -3,7 +3,7 @@ languageCode = "en-US"
 defaultContentLanguage = "en"
 
 title = "Hugo Learn Documentation"
-theme = "hugo-theme-learn"
+theme = "hugo-pathways-theme"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
@@ -12,7 +12,7 @@ defaultContentLanguageInSubdir= true
   description = "Educational material for Pre-Engineering"
   author = "Tate Carson"
   showVisitedLinks = true
-  themeVariant = "mine"
+  themeVariant = "blue"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
