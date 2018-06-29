@@ -1,6 +1,6 @@
 ---
-title: Lesson 1
+title: Declaring Variables
 weight: 1
 ---
 
-### Lesson 1
+### Declaring Variables
