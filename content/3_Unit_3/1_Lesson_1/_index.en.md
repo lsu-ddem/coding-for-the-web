@@ -1,6 +1,5 @@
 ---
-title: Declaring Variables
+title: Conditional Statements
 weight: 1
 ---
 
-### Declaring Variables

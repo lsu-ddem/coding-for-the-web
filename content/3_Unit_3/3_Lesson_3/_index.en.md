@@ -1,6 +1,5 @@
 ---
-title: Data Types
+title: String Methods
 weight: 3
 ---
 
-### Data Types

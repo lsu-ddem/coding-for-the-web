@@ -1,6 +1,5 @@
 ---
-title: Naming Variables
+title: Using Methods
 weight: 2
 ---
 
-### Naming Variables
