@@ -1,4 +1,4 @@
 ---
-title: "Variables"
-weight: 1
+title: "Functions"
+weight: 4
 ---
