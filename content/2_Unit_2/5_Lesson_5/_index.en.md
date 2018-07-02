@@ -1,5 +1,5 @@
 ---
-title: Function Returns
+title: Conditional and Logical Operators
 weight: 5
 ---
 
