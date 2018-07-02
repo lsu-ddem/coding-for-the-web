@@ -3,6 +3,4 @@ title: Declaring Variables
 weight: 1
 ---
 
-
-<p data-height="600" data-theme-id="33744" data-slug-hash="66e0ce027f0080d84bdbb3f1205cc73a" data-default-tab="js" data-user="lsuddem" data-embed-version="2" data-pen-title=" 1.1 : Declaring Variables " class="codepen">See the Pen <a href="https://codepen.io/lsuddem/pen/66e0ce027f0080d84bdbb3f1205cc73a/"> 1.1 : Declaring Variables </a> by LSU DDEM (<a href="https://codepen.io/lsuddem">@lsuddem</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+{{% codepen 600 bbf652 %}}
