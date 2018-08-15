@@ -19,17 +19,6 @@ title: "Coding for the Web"
 ##### Projects:
  - 1. [Rainbow Heart Project](https://codepen.io/lsuddem/pen/b7a327ab6f7167a3e6e46dab7420b627)
   
-  
-#### Answer Keys:
-  
-##### Lessons:
- - 1.1 : [Declaring Variables Answer Key](https://codepen.io/lsuddem/pen/e3386d5f62a391aa05d8eb2905b7f75c)
- - 1.2 : [Naming Variables Answer Key](https://codepen.io/lsuddem/pen/09f20901e91dd15662cb7b990bfd8fee)
- - 1.3 : [Data Types Answer Key](https://codepen.io/lsuddem/pen/3de4b69e16f863b1e4beda1298675d27)
-    
-##### Projects:
-  - 1. [Rainbow Heart Project Answer Key](https://codepen.io/lsuddem/pen/b7a327ab6f7167a3e6e46dab7420b627)
-
 
 ### 2. Operators
 
@@ -48,22 +37,6 @@ title: "Coding for the Web"
  - 3. [MadLibs Project](https://codepen.io/lsuddem/pen/80d12bdf5497bff51d9dea8cd752b4c4)
  - 4. [Animated Egg Project](https://codepen.io/lsuddem/pen/569d1089024c52c7b030fb2ed16b931a)
 
-#### Answer Keys:
-  
-##### Lessons:
- -	2.1 : [Arithmetic Operators Answer Key](https://codepen.io/lsuddem/pen/60b95d44c12a04122fd274de0c9ff2de)
- -	2.2 : [Assignment Operators Answer Key](https://codepen.io/lsuddem/pen/9c603bcb40942281a0456fbf1c9ff0b1)
- -	2.3 : [String Operators Answer Key](https://codepen.io/lsuddem/pen/f9141267c457c96946821e65824f534d)
- -	2.4 : [Comparison Operators Answer Key](https://codepen.io/lsuddem/pen/2b4aef14eb67202411df804d8b0240e6)
- -	2.5 : [Conditional and Logical Operators Answer Key](https://codepen.io/lsuddem/pen/faed8e5e42b68db1e88a91e0f3778488)
- -	2.6 : [Bitwise and Other Operators Answer Key](https://codepen.io/lsuddem/pen/d46c7cfa9d6bea026e578960115cd178)
- -	2.7 : [Operator Exercises Answer Key](https://codepen.io/lsuddem/pen/1bc6f4cba8e623ec3749d846503be66f)
-    
-##### Projects:
- - 1. [Thermometer Project Answer Key](https://codepen.io/lsuddem/pen/fe2fac8a06e068d0cfbc86e611d298ce)
- - 2. [Rainbow Dot Project Answer Key](https://codepen.io/lsuddem/pen/5fdaddb0a3ddf1c393ac131f466132fb)
- - 3. [MadLibs Project Answer Key](https://codepen.io/lsuddem/pen/f62b1a2a6eb64212d7af57df8cd7f0b9)
- - 4. [Animated Egg Project Answer Key](https://codepen.io/lsuddem/pen/2083bbf2272a4cd58641380d1db24c83)
 
   
 
@@ -85,24 +58,6 @@ title: "Coding for the Web"
  - 2. [Cloudy Sky Project](https://codepen.io/lsuddem/pen/ejbzEb)
  - 3. [Student Roster + Interactive Quiz Project](https://codepen.io/lsuddem/pen/00f22687ed5bd8530315a2b76f2c6317)
  
-#### Answer Keys:
-
-##### Lessons:
- -  3.1 : [Conditional Statements Answer Key](https://codepen.io/lsuddem/pen/5e4a410a09599a04530c726fa3713470)
- -  3.2 : [Switch Statements Answer Key](https://codepen.io/lsuddem/pen/f4c017529644c623d6ad1ecfcd8ac517/)
- -	3.3 : [Using Methods Answer Key](https://codepen.io/lsuddem/pen/29ce09f6d046b1b392c1e691475f74ee)
- -	3.4 : [String Methods Answer Key](https://codepen.io/lsuddem/pen/1331d4912396c6f0c3e77dec9b9ba8e2)
- -	3.5 : [Number Methods Answer Key](https://codepen.io/lsuddem/pen/f4f1649f0e257c5f687eed6ca2bd8bac)
- -	3.6 : [Array Methods Answer Key](https://codepen.io/lsuddem/pen/16d9983fbe37d4cd884b9b7a1a32d8d1)
- -	3.7 : [Date and Object Methods Answer Key](https://codepen.io/lsuddem/pen/1d3b75dd955c1d02b7ddee881ec2beb5)
- -	3.8 : [Math Methods Answer Key](https://codepen.io/lsuddem/pen/4b3d871e89877804151c6a63d2eb5445)
- 
-##### Projects:
- - 1. [Jellyfish Project Answer Key](https://codepen.io/lsuddem/pen/jpXjbL)
- - 2. [Cloudy Sky Project Answer Key](https://codepen.io/lsuddem/pen/PBXvNg)
- - 3. [Student Roster + Interactive Quiz Project Answer Key](https://codepen.io/lsuddem/pen/ae3d7fc5558864d3ddfd9e331d6efde9)
- 
- 
 
 ### 4. Functions
 
@@ -120,22 +75,6 @@ title: "Coding for the Web"
  - 3. [Feed da Panda](https://codepen.io/lsuddem/pen/qyLzgE)
  - 4. [Solar System](https://codepen.io/lsuddem/pen/c710d001a32477470beb149ba62f8cf9)
  
-#### Answer Keys:
-
-##### Lessons:
- - 4.1 : Intro to Functions (This section does not have an answer key)
- - 4.2 : [Function Syntax Answer Key](https://codepen.io/lsuddem/pen/oyPJQe)
- - 4.3 : [User Invoked Functions Answer Key](https://codepen.io/lsuddem/pen/9f7729c82cb7fbcdc5727eb04273ef32)
- - 4.4 : [Event Invoked Functions Answer Key](https://codepen.io/lsuddem/pen/8332d7fd49419599f6c82664d4abc9ed)
- - 4.5 : [Function Returns Answer Key](https://codepen.io/lsuddem/pen/9255328a7b34d1cd5aa9a6c6d70973b0)
- - 4.6 : [Writing Methods Answer Key](https://codepen.io/lsuddem/pen/960b946b35ed08bf3d38c1bcb48fed1f)
- 
- ##### Projects: 
- - 1. [Sun and Moon Answer Key](https://codepen.io/lsuddem/pen/4296699081f6d60b7f0a217a4a2c12b3?editors=1111)
- - 2. [Rock, Paper, Scissors / Glass, Pudding, Cat Answer Key](https://codepen.io/lsuddem/pen/ee91c1138f3878cb99bf58487459e0e3)
- - 3. [Feed da Panda Answer Key](https://codepen.io/lsuddem/pen/QBYWma)
- - 4. [Solar System Answer Key](https://codepen.io/lsuddem/pen/960b3234eb6a7e00cf6cf9777d51ca05/)
- 
  
  ### 5. Loops
  
@@ -145,12 +84,6 @@ title: "Coding for the Web"
  - 5.3 : [Nested Loops](https://codepen.io/lsuddem/pen/8eba20ba2378ca956ac3cf2619271bd3)
  
  
- #### Answer Keys:
- 
- ##### Lessons:
- - 5.1 : [For Loops](https://codepen.io/lsuddem/pen/029983481625ba683b45f90770b85b6a)
- - 5.2 : [While Loops](https://codepen.io/lsuddem/pen/b92bb647cf114464004ee2e1a7828609)
- - 5.3 : [Nested Loops](https://codepen.io/lsuddem/pen/64b7201b47449bbe546d882ca07b5735)
  
  
  
