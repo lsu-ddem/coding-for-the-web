@@ -10,5 +10,5 @@ weight: 5
 
 #### Projects: 
  - 1. [First Project](http://coding-for-the-web.lsupathways.org/5_unit_5/project_1/)
- - 2. [Second Project](http://coding-for-the-web.lsupathways.org/5_unit_5/project_2/)
+ - 2. [Flock of Birds Project](http://coding-for-the-web.lsupathways.org/5_unit_5/project_2/)
  - 3. [Multiplication Tables](http://coding-for-the-web.lsupathways.org/5_unit_5/project_3/)
