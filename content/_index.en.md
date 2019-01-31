@@ -77,13 +77,13 @@ title: "Coding for the Web"
  
  
 
- ### 5. Loops
+### 5. Loops
  
 
- #### Lessons:
- - 5.1 : [For Loops](http://coding-for-the-web.lsupathways.org/5_unit_5/1_lesson_1/)
- - 5.2 : [While Loops](http://coding-for-the-web.lsupathways.org/5_unit_5/2_lesson_2/)
- - 5.3 : [Nested Loops](http://coding-for-the-web.lsupathways.org/5_unit_5/3_lesson_3/)
+#### Lessons:
+- 5.1 : [For Loops](http://coding-for-the-web.lsupathways.org/5_unit_5/1_lesson_1/)
+- 5.2 : [While Loops](http://coding-for-the-web.lsupathways.org/5_unit_5/2_lesson_2/)
+- 5.3 : [Nested Loops](http://coding-for-the-web.lsupathways.org/5_unit_5/3_lesson_3/)
 
 #### Projects: 
  - 1. [First Project](http://coding-for-the-web.lsupathways.org/5_unit_5/project_1/)
@@ -91,9 +91,9 @@ title: "Coding for the Web"
  - 3. [Multiplication Tables](http://coding-for-the-web.lsupathways.org/5_unit_5/project_3/)
  
 
- ### 6. JSON
+### 6. JSON
   
- #### Lessons:
+#### Lessons:
  - 6.1 : [Intro to JSON](http://coding-for-the-web.lsupathways.org/6_unit_6/1_lesson_1/)
  - 6.2 : [JSON Syntax]()
  - 6.3 : [Reading JSON with XMLHTTPRequests]()
