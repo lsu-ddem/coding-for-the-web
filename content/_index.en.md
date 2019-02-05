@@ -101,8 +101,8 @@ title: "Coding for the Web"
  - 6.5 : [JSON Data Scraping / HTML](http://coding-for-the-web.lsupathways.org/6_unit_6/5_lesson_5)
  
 #### Projects: 
- - 1. [Basketball Court Project]()
- - 2. [Pets Only Dating Site]()
- - 3. [Team Roster]()
+ - 1. [Basketball Court Project](#)
+ - 2. [Pets Only Dating Site](#)
+ - 3. [Team Roster](#)
  
  
