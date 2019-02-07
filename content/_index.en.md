@@ -98,7 +98,7 @@ title: "Coding for the Web"
  - 6.2 : [JSON Syntax](http://coding-for-the-web.lsupathways.org/6_unit_6/2_lesson_2/)
  - 6.3 : [Reading JSON with XMLHTTPRequests](http://coding-for-the-web.lsupathways.org/6_unit_6/3_lesson_3/)
  - 6.4 : [Reading JSON with Fetch API](http://coding-for-the-web.lsupathways.org/6_unit_6/4_lesson_4/)
- - 6.5 : [JSON Data Scraping / HTML](http://coding-for-the-web.lsupathways.org/6_unit_6/5_lesson_5)
+ - 6.5 : [JSON and HTML](http://coding-for-the-web.lsupathways.org/6_unit_6/5_lesson_5)
  
 #### Projects: 
  - 1. [Basketball Court Project](#)
