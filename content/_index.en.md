@@ -101,7 +101,7 @@ title: "Coding for the Web"
  - 6.5 : [JSON and HTML](http://coding-for-the-web.lsupathways.org/6_unit_6/5_lesson_5)
  
 #### Projects: 
- - 1. [Basketball Court Project](#)
+ - 1. [Basketball Court Project](https://coding-for-the-web.lsupathways.org/6_unit_6/project_1/)
  - 2. [Pets Only Dating Site](#)
  - 3. [Team Roster](#)
  
