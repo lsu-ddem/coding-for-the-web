@@ -105,4 +105,15 @@ title: "Coding for the Web"
  - 2. [Pets Only Dating Site](https://coding-for-the-web.lsupathways.org/6_unit_6/project_2/)
  - 3. [Olympic Table Tennis Scoreboard](https://coding-for-the-web.lsupathways.org/6_unit_6/project_3/)
  
+### 7. Canvas
+#### Lessons:
+ - 6.1 : [Intro to Canvas](http://coding-for-the-web.lsupathways.org/7_unit_7/1_lesson_1/)
+ - 6.2 : [Canvas Basics](#)
+ - 6.3 : [Animating Canvas](#)
+ - 6.4 : [Canvas & JSON](#)
+ - 6.5 : [Visualizing Data with Canvas](#)
  
+#### Projects: 
+ - 1. [Project 1](#)
+ - 2. [Project 2](#)
+ - 3. [Project 3](#)
