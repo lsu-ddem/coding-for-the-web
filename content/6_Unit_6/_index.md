@@ -12,6 +12,6 @@ weight: 6
  
 #### Projects: 
  - 1. [Personalized Parks Project](https://coding-for-the-web.lsupathways.org/6_unit_6/project_1/)
- - 2. [Pets Only Dating Site](#)
- - 3. [Team Roster](#)
+ - 2. [Pets Only Dating Site](https://coding-for-the-web.lsupathways.org/6_unit_6/project_2/)
+ - 3. [Olympic Table Tennis Scoreboard](https://coding-for-the-web.lsupathways.org/6_unit_6/project_3/)
  

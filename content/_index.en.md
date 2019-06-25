@@ -102,7 +102,18 @@ title: "Coding for the Web"
  
 #### Projects: 
  - 1. [Basketball Court Project](https://coding-for-the-web.lsupathways.org/6_unit_6/project_1/)
- - 2. [Pets Only Dating Site](#)
- - 3. [Team Roster](#)
+ - 2. [Pets Only Dating Site](https://coding-for-the-web.lsupathways.org/6_unit_6/project_2/)
+ - 3. [Olympic Table Tennis Scoreboard](https://coding-for-the-web.lsupathways.org/6_unit_6/project_3/)
  
+### 7. Canvas
+#### Lessons:
+ - 7.1 : [Intro to Canvas](http://coding-for-the-web.lsupathways.org/7_unit_7/1_lesson_1/)
+ - 7.2 : [Canvas Basics](http://coding-for-the-web.lsupathways.org/7_unit_7/2_lesson_2/)
+ - 7.3 : [Complex Canvas Shapes + Drawings](http://coding-for-the-web.lsupathways.org/7_unit_7/3_lesson_3/)
+ - 7.4 : [Canvas & JSON](http://coding-for-the-web.lsupathways.org/7_unit_7/4_lesson_4/)
+ - 7.5 : [Visualizing Data with Canvas](#)
  
+#### Projects: 
+ - 1. [Project 1](#)
+ - 2. [Project 2](#)
+ - 3. [Project 3](#)
