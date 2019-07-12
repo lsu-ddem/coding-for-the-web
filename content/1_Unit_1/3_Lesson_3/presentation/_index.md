@@ -141,7 +141,7 @@ Note that the operator "+" is NOT adding the three values in the traditional sen
 console.log(animals[1] + " " + animals[2]);
 ```
 
----
+<!-- --- -->
 
 * Or we could print the entire animals array:
 
@@ -149,129 +149,158 @@ console.log(animals[1] + " " + animals[2]);
 console.log(animals);
 ```
 
+---
+
 ## Question: 
 ### How would we use indexes to access values in the array named "testScores" for Kate and Bartholomew only? 
-    
+
+
 ---
-     // Side Note:  Sometimes the content of an array needs to be added in later, and we want to create an empty array. 
 
-     // If we know what size our array is going to be, we can declare an empty array of a fixed size like so:
+# Initialize array 
 
-         let finalExamScores = new Array(30); // the variable finalExamScores is now assigned to a new array with 30 empty (undefined) elements. 
+* Sometimes the content of an array needs to be added in later, and we want to create an empty array. 
 
+```
+let emptyArray = [];
+```
 
-// 5. Objects
+* If we know what size our array is going to be, we can declare an empty array of a fixed size like so:
 
-  // An object is a collection of properties, and a property is an association between a name (or key) and a value.
+```js
+let finalExamScores = new Array(30); 
+// the variable finalExamScores is now assigned to a new array with 30 empty (undefined) elements. 
+// this is usually not necessary 
+```
+---
 
-  // Objects are essentially used to store multiple values within one container.
+# Objects
 
-  // These values are referred to as properties of the object
+* An object is a collection of properties, and a property is an association between a name (or key) and a value.
+* Objects are essentially used to store multiple values within one container.
+* These values are referred to as properties of the object
 
-      // To understand properties, think of your dream car. Describe the car to yourself. You'll probably mention the color, make, model, etc. These are properties of the car.
+--- 
 
-      // Cars are not the only things with properties, however. For example, describe yourself or your friend. You'll probably mention name, hair color, eye color, favorite show, favorite animal, etc.
+* To understand properties, think of your dream car. Describe the car to yourself. You'll probably mention the color, make, model, etc. These are properties of the car.
+* Cars are not the only things with properties, however. For example, describe yourself or your friend. You'll probably mention name, hair color, eye color, favorite show, favorite animal, etc.
+* Objects allow us to create a variable in our program with which we can store all of these properties. 
 
-      // These are all properties of yourself or your friend! 
+---
 
-      // Objects allow us to create a variable in our program with which we can store all of these properties. 
+* So, we can make an object that represents ourself, our friend, our dream car, or anything else, and store the properties in it.
+* The value of a property can be any data type, meaning the 'year' property of a car can store a numeric value, while the 'model' property stores a string value
+* We assign properties to objects in name:value pairs, either during the construction of an object, or after an object has been created
 
-      // So, we can make an object that represents ourself, our friend, our dream car, or anything else, and store the properties in it.
-   
-  // The value of a property can be any data type, meaning the 'year' property of a car can store a numeric value, while the 'model' property stores a string value
+---
 
-  // We assign properties to objects in name:value pairs, either during the construction of an object, or after an object has been created
+* First, we will look at declaring an empty object, and adding properties after an object has been created.
+* An empty object is an object that does not yet have any properties assigned to it. Remember that we can always add properties to an object later on.
+* To declare a new object without any properties, we say:
 
-  // First, we will look at declaring an empty object, and adding properties after an object has been created.
-     
-      // An empty object is an object that does not yet have any properties assigned to it. Remember that we can always add properties to an object later on.
-    
-      // To declare a new object without any properties, we say:
+```
+let myFirstObject = {};
+```       
 
-        let myFirstObject = new Object();
-          
-          // The object, named myFirstObject, was set equal to the value "new Object()".
-    
-          // The value we set the object equal to, "new Object()", is called a Constructor. 
+---
 
-          // A constructor is code that creates, or *constructs*, a new instance of something that has already been programmed. 
+* We created our empty object, named myFirstObject. Now we want to add properties so that the object is no longer empty:
+* To add a property to an object, we first have to **access** the object that we will be adding the property to. 
+* We access an object by calling the object name, then we access the property of the object
 
-          // In this case, the constructor creates a new instance of an object. Objects have already been programmed into the JavaScript library, so the constructor uses the code as a blueprint to create our new object.  
-  
-          // We are able to program our own constructors, and use other constructors built into the JavaScript library, but we will cover these more in depth in a later segment.
+---
 
-      // We created our empty object on line 152, named myFirstObject. Now we want to add properties so that the object is no longer empty:
-    
-      // To add a property to an object, we first have to *access* the object that we will be adding the property to. 
-
-          // We access an object by calling the object name, then we access the property of the object:
-
-      // We can access an object's property two ways:  
+* We can access an object's property two ways:  
         
-          // (1) Dot Notation. Ex: objectName.propertyName  
-              // Dot Notation uses a dot/period between the object name and property name to access or declare that property
+* Dot Notation. Ex: objectName.propertyName  
+   * Dot Notation uses a dot/period between the object name and property name to access or declare that property
 
-          // (2) Bracket Notation. Ex:objectName["propertyName"]
-              // Bracket Notation uses a pair of brackets after the object name, with the property name placed inside of the brackets in quotation marks
+* Bracket Notation. Ex:objectName["propertyName"]
+  * Bracket Notation uses a pair of brackets after the object name, with the property name placed inside of the brackets in quotation marks
 
-      // Dot Notation is more often used because it is easier to read and is more efficient, as we have to type less characters than we would using bracket notation; however the two are interchangeable
+---
 
-      // Adding a property to an object is similar to declaring a new variable, but we access the object and property and assign it a value, instead of assigning a value to a new variable using "let newProperty = ___"
+* Dot Notation is more often used because it is easier to read and is more efficient, as we have to type less characters than we would using bracket notation; however the two are interchangeable
+* Adding a property to an object is similar to declaring a new variable, but we access the object and property and assign it a value, instead of assigning a value to a new variable using "let newProperty = ___"
 
-            // Ex: objectName.propertyName = "someValue"; or objectName.propertyName = 12345;
+```
+objectName.propertyName = "someValue";
+// or
+objectName.propertyName = 12345;
+```
 
-            // Adding a new property with dot notation:
-            myFirstObject.myFirstProperty = "this is my first object's first property";
+---
 
-            // Adding a new property with bracket notation:
-            myFirstObject["mySecondProperty"] = "this is my first object's second property";
-            
-            // Remember that properties can be any data type, and objects can have multiple properties of different data types
-
-     // Dot and bracket notation are also used to access a property that we want to edit the value of, like so:
-            
-            myFirstObject["myFirstProperty"] = "The value of this property has changed to this sentence!";
-            
-            myFirstObject.mySecondProperty = "this property has a new value, too!!";
-            // Check the console to see that the values changed:
-            console.log("New values: " + myFirstObject.myFirstProperty + " and " + myFirstObject.mySecondProperty);
-
+* Adding a new property with dot notation:
   
-  // We can also create objects and assign their properties on the same line, or across multiple lines as we can do with arrays:
+```
+myFirstObject.myFirstProperty = "this is my first object's first property";
+```
 
-  // When we create a new object and assign properties at the same time, we do not have to set the new object equal to the object constructor, "new Object()"
+* Adding a new property with bracket notation:
+  
+```
+myFirstObject["mySecondProperty"] = "this is my first object's second property";
 
-  // Instead, we set the new object equal to its properties using the following syntax: let newObject = {propertyOne:"valueOne", propertyTwo:"valueTwo", propertyThree:"valueThree"};
+```
 
-        // Make sure that the properties are inside of the curly brackets, the property name is followed by a colon(:), and that the property:value pairs are separated by commas:
+* Remember that properties can be any data type, and objects can have multiple properties of different data types
+  
+---
 
-        let newCar = {make:"Honda", model:"Civic", color:"Gray"};
-        
-        // on the line above, the newCar object is given 3 properties: make, model, and color.
+* Dot and bracket notation are also used to access a property that we want to edit the value of, like so:
 
-        // we can print these properties to the console like so:
+```            
+myFirstObject["myFirstProperty"] = "The value of this property has changed to this sentence!";
+```
 
-        console.log(newCar.make);
-        console.log(newCar.model);
+```
+myFirstObject.mySecondProperty = "this property has a new value, too!!";
+// Check the console to see that the values changed:
+console.log("New values: " + myFirstObject.myFirstProperty + 
+  " and " + myFirstObject.mySecondProperty);
+```
+---
 
-        // Just as we were able to add and alter properties we added to an empty object, we can also alter the value of these properties after they are assigned, and add new ones:
+* We can also create objects and assign their properties on the same line, or across multiple lines as we can do with arrays:
+  * When we create a new object and assign properties at the same time
+  * we set the new object equal to its properties using the following syntax
 
-        newCar.color = "Red";
-    
-        newCar.year = "2018";
+```
+let newObject = {propertyOne:"valueOne", propertyTwo:"valueTwo", propertyThree:"valueThree"};
+```
 
-        // On lines 220 and 222, we used dot notation. Remember that the same actions can be achieved using bracket notation.
+---
 
-        console.log("My car is a " + newCar.color + ", " + newCar.year + " "+ newCar.make + " " + newCar.model);
+* Make sure that the properties are inside of the curly brackets, the property name is followed by a colon(:), and that the property:value pairs are separated by commas:
 
-   // Objects also have methods, which are functions that are programmed as properties of that object. We will discuss the use and creation of methods in a later segment.
+```js
+let newCar = {make:"Honda", model:"Civic", color:"Gray"};
+```
 
+* on the line above, the newCar object is given 3 properties: make, model, and color.
+* we can print these properties to the console like so:
 
-///////////////////////// Exercises /////////////////////////
-// 1. Declare four new variables: summer, fall, winter, and spring. Set these variables to their boolean value, depending on which season it currently is. The current season will be 'true'.
-// 2. Declare a new array named "endangeredAnimals", with the following elements: 
-//    Giant Panda, Siberian Tiger, Snow Leopard, Sea Otter, Asian Elephant, Gorilla, and Tasmanian Devil.
-// 3. Print "Snow Leopard" to the console by accessing the element through the endangeredAnimals array.
-// 4. Giant Pandas are no longer endangered. Assign the element containing "Giant Panda" in the array to the new value of "Orangutan". Print this to the console by accessing the element through the endangeredAnimals array.
-// 5. Print the entire contents of endangeredAnimals to the console.
-// 6. Create a new object named "me" with the following properties: name, age, eye color, hair color, and favorite food
+```js
+console.log(newCar.make);
+console.log(newCar.model);
+```
+
+---
+
+* Just as we were able to add and alter properties we added to an empty object, we can also alter the value of these properties after they are assigned, and add new ones:
+
+```js
+newCar.color = "Red";
+newCar.year = "2018";
+
+console.log("My car is a " + newCar.color + ", " + newCar.year + " "+ newCar.make + " " + newCar.model);
+```
+
+* Objects also have methods, which are functions that are programmed as properties of that object. We will discuss the use and creation of methods in a later segment.
+
+---
+
+# Exercise 
+
+[back](..)
