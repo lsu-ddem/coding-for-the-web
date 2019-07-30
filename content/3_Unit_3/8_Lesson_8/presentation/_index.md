@@ -1,88 +1,141 @@
 ---
-title: Array Methods
+title: Math Methods
 outputs: ['Reveal']
 reveal_hugo.theme: 'moon'
 reveal_hugo.highlight_theme: 'solarized-light'
 hidden: true
 ---
 
-# Array Methods 
+# Math Methods
 
 ---
 
-* to String : Arrays also have a `.toString()` method, and just like we can create arrays from a string, we can create a string from an array. The string contains the elements of the array separated by commas
-  * syntax: `.toString()`
+* The JavaScript Math object has a lot of useful methods that are worth mentioning.
+* To use the Math methods, we don't have to construct a new Math object.
+* All we do is include the Math object name, and then invoke the method, such as:
 
 ```js
-var colors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
-console.log("The colors that makeup the rainbow are " + colors.toString());
+let roundUp = Math.round(9.8); 
+// here we invoked the round method. This would round 9.8 to 10.
 ```
 
 ---
 
-* Join : Similar to the toString() method, the join method creates a string from an array, but allows us to specify a different separator than the comma:
-  * syntax: `.join()`
+* There are a few constants loaded into the JS Math object's properties.
+* A few of these include:
+  * 1. PI : `Math.PI`
+  * 2. Euler's constant : `Math.E`
+  * 3. Natural log base 10: `Math.LN10`
+* More : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
 
-```js
-colors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
-console.log("The colors that makeup the rainbow are " + colors.join(" and "));
+---
+
+* The Math object also has many methods, but we will only cover the ones you will likely use most
+* If you'd like to see a full list of the Math object's methods, go to https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+
+---
+
+* 1. Exponents:
+  * Syntax: `Math.pow(x,y)` where x is the base and y is the exponent 
+
+```js 
+let value = Math.pow(5, 2);
+let newValue = Math.pow(value, 2);
 ```
 
 ---
 
-* push : `push` is a method that allows us to 'push' a new element into an array. The element is added at the last index.
-  * syntax: `.push()`
+* 2. Random:
+  * Syntax: `Math.random()` 
+  * When `Math.random()` is used without any arguments, it returns a random value between 0 and 1:
 
-```js
-colors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
-colors.push('White');
-colors.push('Black');
-console.log("New colors were added to the list : " + colors[7] + " and " + colors[8]);
+```js 
+console.log("Here is a random number " + Math.random());
+```
+
+* However, we can specify the values we want the random number to be within range of using the next method:
+
+---
+
+* 3. Floor:
+  * Syntax: `Math.floor()` 
+  * `Math.floor()` is used to return the largest whole number that is less than or equal to a specified value. We use this method to get a random whole number within a specific range of numbers, such as 1-10:
+
+```js 
+let randomNum = Math.floor((Math.random() * 10) + 1);
+console.log(randomNum);
 ```
 
 ---
 
-* shift : `shift` is a method that allows us to remove the first element of an array. The element is completely removed from the array, not just accessed. This means that the rest of the elements shift up one position/index. The element is returned to us and is no longer in the array.
-* `syntax: `.shift()`
+* the syntax of using .floor with .random is: 
+* `Math.floor((Math.random * maxRangeValue) + minRangeValue)`
 
 ```js
-console.log("The first color in the list is : " + colors.shift());
-console.log("We removed Red from the list, so now the colors are " + colors.toString());
+console.log("A new random number between 1 and 10 is " + 
+  Math.floor((Math.random() * 10) + 1));
+console.log("Another random number between 1 and 10 is " + 
+  Math.floor((Math.random() * 10) + 1));
 ```
 
 ---
 
-* unshift : `unshift` is a method that inserts a new element at the beginning of an array, and increases the rest of the elements' indexes by 1
-  * syntax: `.unshift()`
+* 4. Round:
+  * Syntax: `Math.round(x)` rounds the value x to the nearest whole number
 
 ```js
-console.log("I'm adding red back to the list now... ");
-colors.unshift("Red");
-console.log("Now the colors are back to normal : " + colors.toString());
+let roundMeUp = Math.round(5.7);
+let roundMeDown = Math.round(7.3);
 ```
 
 ---
 
-* sort : sort is a method that sorts the elements of an array alphabetically
-  * syntax: `.sort()`
+* 5. Exponential Function:
+  * Syntax: `Math.exp(x)` raises E to the x power
 
 ```js
-var letters = ['P', 'M', 'E', 'T', 'N', 'X', 'J', 'I'];
-console.log("Letters unsorted: " + letters.toString());
-console.log("Letters sorted: " + letters.sort().toString());
+let raised = Math.exp(5);
 ```
 
 ---
 
-* reverse : `reverse` is a method that reverses the order of the elements within an array
-  * syntax: `.reverse()`
+* 6. Absolute Value:
+  * Syntax: `Math.abs(x)` returns the absolute value of the variable or value in parenthesis
 
 ```js
-var order = ['First', 'Second', 'Third', 'Fourth', 'Fifth'];
-console.log("Original order: " + order.toString());
-console.log("Reversed order: " + order.reverse().toString());
+let positive = Math.abs(-24343525);
+let negative = -24124214;
+let absoluteVal = Math.abs(negative / 2);
 ```
 
+---
+
+* 7. Square Root:
+  * Syntax: `Math.sqrt(x) `returns the square root of the value or variable in parenthesis
+
+```js
+let sqrt = Math.sqrt(25);
+sqrt = Math.pow(sqrt, 2);
+console.log(Math.sqrt(sqrt));
+```
+
+---
+
+* 8. Trigonometric Functions:
+  * Syntax: 
+    * Sin : `Math.sin(x)`
+    * Tan : `Math.tan(x)`
+    * Cos : `Math.cos(x)`
+    * Arcsin : `Math.asin(x)`
+    * Arctan : `Math.atan(x)`
+    * Arccos : `Math.acos(x)`
+
+---
+
+* Though there are a number of methods for the Math object that we didn't cover, you likely won't need to use them as a beginner programmer. Still, you can read about them here: 
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+* and:
+* https://www.w3schools.com/js/js_math.asp
 
 ---
 # Exercises
