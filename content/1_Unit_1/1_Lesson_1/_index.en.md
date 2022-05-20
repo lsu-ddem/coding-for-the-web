@@ -1,5 +1,5 @@
 ---
-title: Declaring Variables_
+title: Declaring Variables
 weight: 1
 ---
 
