@@ -1,6 +1,6 @@
 ---
 title: "Conditionals and Methods"
-weight: 3
+weight: 4
 ---
  
 #### Lessons:

@@ -1,6 +1,6 @@
 ---
 title: "JSON"
-weight: 6
+weight: 8
 ---
 
 #### Lessons:

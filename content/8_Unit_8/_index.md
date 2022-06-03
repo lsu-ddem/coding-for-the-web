@@ -1,6 +1,6 @@
 ---
 title: "Canvas"
-weight: 7
+weight: 9
 ---
 
 #### Lessons:
