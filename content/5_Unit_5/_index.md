@@ -5,7 +5,7 @@ weight: 1
 
  
 #### Lessons:
- - 1.1 : [Declaring Variables](http://coding-for-the-web.lsupathways.org/1_unit_1/1_lesson_1/)
+ - 5.1 : [Classes and Ids](http://coding-for-the-web.lsupathways.org/5_unit_5/1_lesson_1/)
  - 1.2 : [Naming Variables](http://coding-for-the-web.lsupathways.org/1_unit_1/2_lesson_2/)
  - 1.3 : [Data Types](http://coding-for-the-web.lsupathways.org/1_unit_1/3_lesson_3/)
   
