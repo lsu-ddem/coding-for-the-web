@@ -1,183 +1,208 @@
 ---
-title: READING JSON WITH XMLHTTPREQUEST
+title: Nested Loops
 outputs: ['Reveal']
 reveal_hugo.theme: 'moon'
 reveal_hugo.highlight_theme: 'solarized-light'
 hidden: true
 ---
 
-# Reading JSON with XMLHTTPRequests 
+# Nested Loops 
 
 ---
 
-# JSON files 
-
-* JSON can be much more complex than what we've seen so far, handling 100s of objects
-* now we will use JSON files instead of JSON objects written into our JS code 
-* .json files wrap the entirety of the JSON content within a pair of curly brackets { } as you will see
-* .json files also almost always contain multiple objects, but the syntax for this is something we've already seen, so don't get intimidated.
-  
----
-
-# JSON files 
-
-* why store everything in one file? 
-  * JSON is extremely useful for presenting data in an organized, clean format that is easy for both humans and machines to read
-  
----
-# Example 
-
-* books in our personal library 
-  * Instead of having 30 or so individual variables storing the data, we can organize the data in a JSON file by placing them within an array
-  *  Each element of the array is a JSON object itself, and the elements are separated by commas, just like a JavaScript array
-* notice the square and curly brackets 
-  
----
-
-# Example 
-
-* Example of using JSON to organize a personal library: https://api.myjson.com/bins/12j3gg?pretty=1
-* You can see the data organized in an easily readable format, representing our library of 3 books
-* We can now bring this file into our projects using XMLHTTPRequest
+* You may recall the idea of nesting from the lesson on conditional statements. 
+* Nesting simply means placing something within another instance of the same type.
+* With nested conditional statements, we wrote an if statement that had an if or if-else statement within it.
 
 ---
 
-# XMLHTTPRequest
+* The same idea applies to all loops.
+* We can nest for loops inside of for loops, while loops inside of while loops, do while loops inside of do while loops, etc.
+* We can also nest any loop type within a loop of a different type. For example, placing a while loop inside of a forloop, or a for loop inside of a do-while loop.
 
-* XMLHTTPRequest ( XHR for short ) is an API in the form of an object.
-* XHR objects are used to communicate back and forth with servers. 
-* XML(which is a language) is in the name, but XMLHTTPRequests can be used with any language, which is why we can use them when working with JSON files
-  
---- 
-
-# XMLHTTPRequest
-
-* declare a new variable and set it equal to XMLHTTPRequest()  
-* declare a JavaScript constant variable storing the URL of our JSON data 
-
-```  
-const url = "https://api.myjson.com/bins/12j3gg?pretty=1";
-```
 ---
 
-* Next we declare another constant named 'request' which creates a new XMLHttpRequest object
+* We are also able to place conditional statements within loops, and vice versa
+* The purpose of nesting is to execute code depending on further conditions.
 
-```
-const request = new XMLHttpRequest();
-```
+---
 
-* The line above, the declaration of the request constant, created a new XMLHttpRequest object.
-* The XMLHttpRequest object allows us to easily request data from a server
+* For example, imagine you just woke up and are getting dressed for the day. 
+    * What do you take into consideration when you're getting dressed? 
+    * You probably take a look at the weather to know how best to dress
+    * If its cold, you bundle up. If its warm, you put on shorts and a shirt.
     
 ---
+  
+  * But what other factors alter our outfit of the day? What about if the weather app tells us its raining today? 
+  * Does this change your outfit of choice? You might choose to wear rain boots or a rain jacket instead or in addition to your original choices.
 
-* Next we'll specify the response type of our request by using the responseType method, of which the default response type is text:
-
-```js
-request.responseType = 'json';
-// Now our response type is set to JSON.
-```
-
-* now we try to submit the request
-* The HttpRequest is literally a request to a server
-  * our browser asking another machine somewhere else in the world for something.
-  * Whether that something is getting data, sending data, etc. 
-
----
-
-# HTTP Methods 
-
-*  GET
-   *  Requests using GET as the method should only retrieve data 
-* POST 
-  * Requests using POST as the method are **sending** information to that location, either new or updated information
-  * The sending and reception of the information often causes a change in state on the server
-    
 --- 
 
-* PUT
-  * Requests using PUT as the method are sending information to a location, but this information completely replaces what information was held prior
-  * In other words, PUT can be used to update information already being shared/stored, but it can also be used to store new information
-
-* DELETE
-  * Requests using DELETE as the method are deleting the specified resource
-
+  * First, our outfit was dependent on the temperature outside. Then we considered the weather. Our outfit was then dependent on further conditions. 
+  * Therefore, if we were to see this scenario programmed via conditional statements or perhaps using loops, there would be nesting at some point to include a test for the weather, since this factor can alter the outfit we choose.
 
 ---
 
-* The other 5 HTTP methods include HEAD, CONNECT, and TRACE, OPTIONS, and PATCH which you caread about here: 
-  * https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
-      
-
----
-# Open 
-
-* Next, we need to open the XMLHTTPRequest object we created by using the .open() method, and specifying which HTTP Request method we want to use:
+* Lets model this scenario using nested conditional statements, which we have had practice with before:
 
 ```js
-request.open('GET', url, true);
+let temperature = 75;
+let weather = "rainy";
+if (temperature < 45) {
+  if (weather == "sunny") {
+    let clothes = "warm clothes with a hat or some sunglasses";
+  } else if (weather == "rainy") {
+    let clothes = "warm, dry clothes with a rain jacket or rain boots";
+  } else {
+    let clothes = "bundle up in warm clothes";
+  }
+} else if (temperature < 65) {
+  if (weather == "sunny") {
+    let clothes = "layered clothes with a hat or some sunglasses";
+  } else if (weather == "rainy") {
+    let clothes = "layered clothes clothes with a rain jacket or rain boots";
+  } else {
+    let clothes = "wear layered clothes to adapt to the chilly and warm parts of the day";
+  }
+} else {
+  if (weather == "sunny") {
+    let clothes = "light & breathable clothes with a hat or some sunglasses";
+  } else if (weather == "rainy") {
+    let clothes = "light & breathable clothes with a rain jacket or rain boots";
+  } else {
+    let clothes = "wear light & breathable clothes because it is hawt outside";
+  }
+}
 ```
 
-* The .open() method initializes a new or existing request
-   
 ---
 
-* The method takes up to 5 parameters, and as little as 2 parameters.
-* The 2 parameters required no matter what include the HTTP Request method type wrapped in quotation marks, and the url of the JSON data:
-
-```   
-XMLHttpRequest.open(method, url)
-```
+* We've had plenty of practice with nested conditional statements, so lets start looking at nested loops:
+* Nested for loops can be used to accomplish a variety of goals. One of the most common uses for nested for loops is accessing elements within 2D arrays 
 
 ---
 
-* The 3rd optional parameter is a boolean that defaults to **true**, which specifies whether or not to execute the operation asynchronously. 
-* The async parameter defaults to true because sending the request asynchronously allows for our JavaScript code to continue working;
-* Instead of having to wait for a response from the server, the JS code can continue to execute other scripts while waiting, and handle the response some time after the response is ready to be handled
-
----
-
-* Setting this parameter to false would send the request synchronously, forcing us to wait for a response to gain back control and continue executing scripts or working
-* The 4th and 5th optional parameters are for a user and password, which are used for authentification, but again are optional.
-  
----
-
-# Onload 
-
-* onload method is called when an XMLHTTPRequest transaction is successfully completed
-* The method is set equal to a function that will be executed when the request is completed successfully
-* Within the function, we tell our code what to do with the data we get back from the request, which is stored in request.response
-
----
-# onload example
+* Consider the following 2D array "breakfasts", created by declaring arrays within an array:
 
 ```js
-request.onload = function () {
-    // first we want to check that the response to the request 
-    // is ready for us to work with the data it returned
-    // We do this by checking if the status of the request 
-    // is equal to 200, which is the ready status like so:
-    if (request.status == 200){
-      // if the response is ready for us to work with, the following code will execute:
-      let jsonData = request.response; // this line stores the JSON data from the response to local variable
-      console.log(jsonData);
-    }
-  //close the if statement and the function curly brackets
-  };
-// Finally, we send the request off by using the .send method() : 
-request.send();
+var breakfasts = [
+  // each of these arrays are elements of the breakfasts array, 
+  // though they are arrays with elements themselves.
+  ["biscuits", "sausage"],
+  ["pancakes", "syrup"],
+  ["kolache", "jelly"]
+];
 ```
 
-* now check out the console! 
-  
----
-
-# Full Example
-
-[codepen](https://codepen.io/lsuddem/pen/zVajgB?editors=0010)
+* Using a single for loop, we can access the second element in each array. The second elements include sausage, syrup, and jelly.
 
 ---
 
-# Excercise 
+* We can accomplish this pretty easily by specifying that the element we want to access is the second element in each array, like so: 
+
+```js
+for (let i = 0; i < breakfasts.length; i++) {
+  // the element is accessed by accessing the i-th element of the 
+  // breakfasts array, which we know is an array itself, so we 
+  // specify which element of this array we want to access:
+  // remember that the second element of an array has an index of 1 
+  console.log(breakfasts[i][1]);
+}
+```
+
+* Checking the console, you'll see that the second elements were printed out
+
+---
+
+* What about scenarios in which there are multiple elements in a 2D array and we want to traverse through all of them, instead of accessing a single element? 
+
+* In this instance, we implement nested for loops:
+
+```js
+var newBreakfasts = [
+  ["biscuits", "sausage", "OJ", "cheese grits", "grapes"],
+  ["pancakes", "syrup", "strawberries", "apple juice", "ham"],
+  ["kolache", "jelly", "bacon", "mango", "chocolate milk"]
+];
+```
+
+---
+
+* Using the same methodology as the forloop on line 38 would only result in the second element within each array being printed.
+
+* We want to print each item related to each breakfast, however, so we will implement a nested for loop like so:
+
+```js
+for (let i = 0; i < newBreakfasts.length; i++) {
+  // this line is simply printing "Breakfast Option N: " to the 
+  // console to keep the print statements organized
+  console.log("Breakfast Option " + (i + 1) + " : ")
+  // pay special attention to the second for loop's statement 2. 
+  // It says it will loop as long as j is less than the length 
+  // of the array ***located at element i***
+  for (let j = 0; j < newBreakfasts[i].length; j++) {
+    console.log(newBreakfasts[i][j]);
+  }
+}
+```
+
+---
+
+* For loops are the best loop to iterate through arrays of one or more dimensions, but the same concept of nested loops applies to other types of loops as well
+* Below is an example of nested while loops:
+* The loops are printing 99 through 00 to the console, one by one 
+
+---
+
+* The first while loop executes WHILE the statement "tens is greater than or equal to 0" is TRUE. 
+* Looking at the declaration of the tens variable on line 136, we see that tens is initialized to 9. This means that the outer loop will loop 10 times total
+* The second while loop executes WHILE the statement "ones is greater than or equal to 0" is TRUE. 
+
+---
+
+* On line 74, we initialized ones to equal 9. We place this withIN the first while loop because of the fact that the second while loop is decrementing the ones variable.
+* If we failed to place "ones = 9" within the first while loop, the ones variable would not be reset to 9 after having printed the ten values, and the rest of the values would not be printed. 
+
+---
+
+* Nested while loop example:
+
+```js
+let tens = 9;
+let ones;
+while (tens >= 0) {
+  ones = 9;
+  while (ones >= 0) {
+    console.log(tens + "" + ones);
+    // here we ensure to decrement the ones variable so that we 
+    // are not caught in an infinite loop
+    ones--;
+  }
+  // here we ensure to decrement the tens variable so that we 
+  // are not caught in an infinite loop
+  tens--;
+}
+```
+
+---
+
+* Below are a few examples of different nested loops:
+* Do while: 
+
+```js
+do {
+  let count = 10;
+  console.log("doin the first thing");
+  do {
+    count--;
+    console.log("doin the second thing within the first thing");
+  } while ((count + 1) > 2);
+} while (count > 0);
+```
+
+---
+
+# Exercises
 
 [back](..)
