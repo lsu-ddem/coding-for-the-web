@@ -1,5 +1,5 @@
 ---
-title: "Miscellanious Topics"
+title: "Miscellaneous Topics"
 weight: 10
 ---
 
