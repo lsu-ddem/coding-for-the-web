@@ -1,6 +1,6 @@
 ---
 title: "Intro to the Web"
-weight: 2
+weight: 3
 ---
 
  
@@ -8,4 +8,4 @@ weight: 2
  - [Intro to the Web](http://coding-for-the-web.lsupathways.org/0_intro_to_the_web/1_Intro_1/)
   
 Project:
- - 1. [Instagram Project](http://coding-for-the-web.lsupathways.org/0_intro_to_the_web/2_Project_2/)
+ - [Instagram Project](http://coding-for-the-web.lsupathways.org/0_intro_to_the_web/2_Project_2/)
