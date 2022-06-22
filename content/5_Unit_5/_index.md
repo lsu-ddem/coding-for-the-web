@@ -11,4 +11,4 @@ weight: 6
  - 5.4 : [Event Invoked Functions 2] (http://coding-for-the-web.lsupathways.org/5_unit_5/4_lesson_4/)
   
 #### Projects:
- - 1. [Rainbow Heart Project](http://coding-for-the-web.lsupathways.org/1_unit_1/projects/)
+ - 1. [Pokedex Project](http://coding-for-the-web.lsupathways.org/5_unit_5/projects/)
