@@ -1,6 +1,6 @@
 ---
 title: "HTML, CSS, and JavaScript"
-weight: 6
+weight: 7
 ---
 
  
