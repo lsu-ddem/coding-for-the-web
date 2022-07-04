@@ -11,6 +11,7 @@ weight: 8
  - 5.4 : [Event Invoked Functions 2] (http://coding-for-the-web.lsupathways.org/5_unit_5/4_lesson_4/)
  - 5.5 : [CSS Properties - Color, Font-family, Size Units and Position] (http://coding-for-the-web.lsupathways.org/5_unit_5/5_lesson_5/)
  - 5.6 : [Flex Box] (http://coding-for-the-web.lsupathways.org/5_unit_5/6_lesson_6/)
+ - 5.7 : [createElement, appendChild, classList] (http://coding-for-the-web.lsupathways.org/5_unit_5/7_lesson_7/)
 
   
 #### Projects:
