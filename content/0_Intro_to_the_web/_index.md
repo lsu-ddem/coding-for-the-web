@@ -1,6 +1,6 @@
 ---
 title: "Intro to the Web"
-weight: 3
+weight: 1
 ---
 
  
