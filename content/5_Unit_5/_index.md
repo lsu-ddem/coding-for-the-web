@@ -17,3 +17,4 @@ weight: 6
 #### Projects:
  - 1. [Lyrics Project](http://coding-for-the-web.lsupathways.org/1_unit_5/projects/1_project_1)
  - 2. [Pokedex Project](http://coding-for-the-web.lsupathways.org/5_unit_5/projects/2_project_2)
+ - 3. [Website Project] (http://coding-for-the-web.lsupathways.org/5_unit_5/projects/3_project_3)
