@@ -8,8 +8,9 @@ weight: 5
  - 4.2 : [Function Syntax](http://coding-for-the-web.lsupathways.org/4_unit_4/2_lesson_2/)
  - 4.3 : [User Invoked Functions](http://coding-for-the-web.lsupathways.org/4_unit_4/3_lesson_3/)
  - 4.4 : [Event Invoked Functions](http://coding-for-the-web.lsupathways.org/4_unit_4/4_lesson_4/)
- - 4.5 : [Function Returns](http://coding-for-the-web.lsupathways.org/4_unit_4/5_lesson_5/)
- - 4.6 : [Writing Methods](http://coding-for-the-web.lsupathways.org/4_unit_4/6_lesson_6/)
+ - 4.5 : [setTimeout and setInterval](http://coding-for-the-web.lsupathways.org/4_unit_4/5_lesson_5/)
+ - 4.6 : [Function Returns](http://coding-for-the-web.lsupathways.org/4_unit_4/6_lesson_6/)
+ - 4.7 : [Writing Methods](http://coding-for-the-web.lsupathways.org/4_unit_4/7_lesson_7/)
 
 #### Projects:
  - 1. [Sun and Moon](http://coding-for-the-web.lsupathways.org/4_unit_4/project_1/)

@@ -1,106 +1,92 @@
 ---
-title: Writing Methods
+title: Function Returns
 outputs: ['Reveal']
 reveal_hugo.theme: 'moon'
 reveal_hugo.highlight_theme: 'solarized-light'
 hidden: true
 ---
 
-# Writing Methods
+# Function Returns
+ 
+---
+
+* As mentioned earlier, functions end with a return statement
+* A return statement must begin with the keyword 'return'
+* Whatever follows the return keyword is what is literally "returned" to us as a result of running the function
+* We can place variables, equations, strings, concatenations, etc. as the return value for a function
+* Unlike other popular languages, JavaScript does not require us to specify the type of data that is being returned
 
 ---
 
-* As mentioned earlier, objects can have methods that we can invoke to perform some kind of function or action on the object
-* Methods are stored as an object property, but are programmed by defining a new function to assign the property to
-* To look at a few examples, we will use the employee object below:
-  
----
-
-* The employee object will represent an employee of our imaginary company, Katie Johnson. 
-* This object stores the information for employee Katie Johnson, with properties for her name, ID, phone number, address, hourly wage, and number of hours worked this week.
-* The last property of the employee object will be the method called "printEmployeeInfo"
-
----
-  
-* The printEmployeeInfo method declares a new function that returns the employee ID and full name in a formatted order
-* You'll notice that the method uses a new keyword we haven't worked with yet, "this"
-* When used in an object method, the 'this' keyword refers to the object in context. 
-* On line 30, this.firstName is equivalent to saying employee.firstName:
+* I will provide a few examples of different types of functions and returns, so that you see the different possibilities for return statements, and gain greater understanding of functions:
+* 1. Future Age Calculator
+  * This function simply returns the age the user will be in the year provided by the user.
+  * The function calculates the future age by subtracting the future year from the current year, and adding that value to the user's current age:
+  * We return this equation on line 26, meaning that when we invoke the function, it will give us the result of the equation on line 26.
 
 ---
 
 ```js
-let employee = {
-  firstName: "Katie",
-  lastName: "Johnson",
-  employeeID: 295025,
-  phone: 4560001234,
-  address: "42 Wallaby Way",
-  wage: 13.50,
-  hoursWorked: 25,
-  printEmployeeInfo: function () {
-    return "Employee #" + this.employeeID + " : " + this.firstName + " " + this.lastName;
-  }
-};
+let myAge = 20;
+let futureYear = 2060;
+console.log("I'm " + myAge + " now, but in " + futureYear + " I'll be " + futureAge(myAge, futureYear));
 
-console.log(employee.printEmployeeInfo());
-```
+myAge = 32;
+futureYear = 2047;
+console.log("I'm " + myAge + " now, but in " + futureYear + " I'll be " + futureAge(myAge, futureYear));
 
----
-   
-* Next, lets add a method to the employee object that calculates their weekly pay
-* This method will be called "paycheck" and will return the product of the employee object's wage property and the employee object's hoursWorked property:
-
-```js
-employee.paycheck = function () {
-  return "$" + (this.wage * this.hoursWorked);
+function futureAge(currentAge, futureYear) {
+  let now = new Date();
+  let thisYear = now.getFullYear();
+  return currentAge + (futureYear - thisYear);
 }
 ```
 
 ---
 
-* Now, we can invoke the paycheck method like so:
-
-```js
-let income = employee.paycheck();
-console.log(income);
-```
-
-* or: 
-
-```js
-console.log("Employee #" + employee.employeeID + " worked " 
-  + employee.hoursWorked + " hours this week and earned " 
-  + employee.paycheck());
-```
+* 2. Random Pet Generator
+  * The next type of return we're going to look at is returning new objects or properties of new objects
+  * This next function randomly selects different elements from different arrays and assigns these values to the property of a new pet object
+  * We return the randomly selected properties of the new pet object to the user. 
+  * The function's return statement prints the randomly selected properties of the object to the console in a specified format.
 
 ---
 
-* Try updating the hoursWorked property to a number greater than 25, and invoking the paycheck method again:
-
 ```js
-employee.hoursWorked = 40;
-console.log("Employee #" + employee.employeeID + " worked " +
-  employee.hoursWorked + " hours this week and earned " + 
-  employee.paycheck());
-```
+console.log(petGenerator());
 
-* Finally, lets write an employee contact information method.
-  
----
+function petGenerator() {
 
-* The method will be named "contact" and will print the information to the console in this order: 
-* Employee #ID - Last Name, First Name , Phone: (###)-###-#### , Address: __________
+  let petNames = ['Charlie', 'Max', 'Bella', 'Fluffi', 'Petunia', 'Bloo', 'Sushi'];
+  let animalTypes = ['bird', 'cat', 'dog', 'horse', 'tiger', 'chinchilla', 'bunny'];
+  let animalColors = ['tan', 'black and white', 'spotted', 'striped', 'red-orange', 'rainbow', 'brown'];
 
-```js
-employee.contact = function () {
-  return "Employee #" + this.employeeID + " - " + this.lastName + 
-  ", " + this.firstName + " , Phone: (" + 
-  this.phone.toString().slice(0, 3) + ")-" + this.phone.toString().slice(3, 6) + 
-  "-" + this.phone.toString().slice(6, 10) + " , Address: " + this.address;
+  let randomNumber = Math.floor(Math.random() * 7);
+
+  let newPet = {
+    name: petNames[randomNumber],
+    type: animalTypes[randomNumber],
+    color: animalColors[randomNumber]
+  };
+
+  return "Your new pet is a " + newPet.color + " " + newPet.type + " named " + newPet.name + "!";
 }
-console.log(employee.contact());
+
 ```
+
+---
+
+* 3. Different Return Possibilities:
+  * This example is a fully functioning state sales tax calculator for all 50 states.
+  * The taxCalculator function takes two parameters: the price of the product and the state to calculate the sales tax for
+  * The return value not only depends on the arguments, but also whether or not we are able to calculate the product price with sales tax. Events that would prevent us from doing so include the state not having sales tax, or the user passing in an invalid argument for the state parameter.
+
+---
+
+* We have to account for these possibilities, so we will program 3 possible return statements.
+* To invoke this function, we simply declare a new variable equal to the functions invocation, or just print it to the console, like so:
+
+[back to codepen to see this larger example](..)
 
 ---
 
