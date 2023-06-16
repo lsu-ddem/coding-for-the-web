@@ -1,5 +1,5 @@
 ---
-title: "Coding for the Web Index"
+title: "Coding for the Web"
 ---
 
 # Coding for the Web
