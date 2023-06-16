@@ -11,64 +11,64 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 
 collections:
   # Unit 1 
-  - name: "Coding for the Web" 
-    label: "Coding for the Web Index" 
+  - name: "Coding for the Web Index" 
+    label: "Coding for the Web" 
     folder: "content" 
     create: true 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "Intro to the Web" 
-    label: "Intro to the Web Index" 
+  - name: "Intro to the Web Index" 
+    label: "Intro to the Web" 
     folder: "content/0_Intro" 
     create: true 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "Variables" 
-    label: "Variables Index" 
+  - name: "Variables Index" 
+    label: "Variables" 
     folder: "content/1_Variables" 
     create: true 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}    
-  - name: "Operators" 
-    label: "Operators Index" 
+  - name: "Operators Index" 
+    label: "Operators" 
     folder: "content/2_Operators" 
     create: true 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}    
-  - name: "Conditionals and Methods" 
-    label: "Conditionals and Methods Index" 
+  - name: "Conditionals and Methods Index" 
+    label: "Conditionals and Methods" 
     folder: "content/3_Conditionals" 
     create: true 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}   
-  - name: "Functions" 
-    label: "Functions Index" 
+  - name: "Functions Index" 
+    label: "Functions" 
     folder: "content/4_Functions" 
     create: true 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}             
-  - name: "HTML, CSS, and JavaScript" 
-    label: "HTML, CSS, and JavaScript Index" 
+  - name: "HTML, CSS, and JavaScript Index" 
+    label: "HTML, CSS, and JavaScript" 
     folder: "content/5_HTML" 
     create: true 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}     
-  - name: "Loops" 
-    label: "Loops Index" 
+  - name: "Loops Index" 
+    label: "Loops" 
     folder: "content/6_Loops" 
     create: true 
     fields: 
