@@ -19,7 +19,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "Intro to the Web Index" 
+  - name: "Intro to the Web" 
     label: "Intro to the Web" 
     folder: "content/0_Intro" 
     create: true 
@@ -27,7 +27,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "Variables Index" 
+  - name: "Variables" 
     label: "Variables" 
     folder: "content/1_Variables" 
     create: true 
@@ -35,7 +35,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}    
-  - name: "Operators Index" 
+  - name: "Operators" 
     label: "Operators" 
     folder: "content/2_Operators" 
     create: true 
@@ -43,7 +43,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}    
-  - name: "Conditionals and Methods Index" 
+  - name: "Conditionals and Methods" 
     label: "Conditionals and Methods" 
     folder: "content/3_Conditionals" 
     create: true 
@@ -51,7 +51,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}   
-  - name: "Functions Index" 
+  - name: "Functions" 
     label: "Functions" 
     folder: "content/4_Functions" 
     create: true 
@@ -59,7 +59,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}             
-  - name: "HTML, CSS, and JavaScript Index" 
+  - name: "HTML, CSS, and JavaScript" 
     label: "HTML, CSS, and JavaScript" 
     folder: "content/5_HTML" 
     create: true 
@@ -67,7 +67,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}     
-  - name: "Loops Index" 
+  - name: "Loops" 
     label: "Loops" 
     folder: "content/6_Loops" 
     create: true 
@@ -76,7 +76,7 @@ collections:
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "JSON" 
-    label: "JSON Index" 
+    label: "JSON" 
     folder: "content/7_JSON" 
     create: true 
     fields: 
@@ -84,21 +84,21 @@ collections:
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}        
   - name: "Miscellaneous Topics" 
-    label: "Miscellaneous Topics Index" 
+    label: "Miscellaneous Topics" 
     folder: "content/8_Misc" 
     create: true 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}    
-  - name: "Unit 2 - Lesson 2 - Project 2" 
-    label: "Unit 2 - Lesson 2 - Project 2" 
-    folder: "content/2_Unit_2/2_Lesson_2/2_Project_2" 
-    create: true 
-    fields: 
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Order", name: "weight", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown"}        
+  # - name: "Unit 2 - Lesson 2 - Project 2" 
+  #   label: "Unit 2 - Lesson 2 - Project 2" 
+  #   folder: "content/2_Unit_2/2_Lesson_2/2_Project_2" 
+  #   create: true 
+  #   fields: 
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - {label: "Order", name: "weight", widget: "number"}
+  #     - {label: "Body", name: "body", widget: "markdown"}        
   
 #   #Back to lessons 
 #   - name: "Unit 2 - Lesson 3" 
