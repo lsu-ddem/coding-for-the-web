@@ -11,9 +11,9 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 
 collections:
   # Unit 1 
-  - name: "Unit 1 - Lesson 1" 
-    label: "Unit 1 - Lesson 1" 
-    folder: "content/1_Unit_1/1_Lesson_1" 
+  - name: "Intro to the Web" 
+    label: "Intro to the Web" 
+    folder: "content/0_Intro_to_the_web" 
     create: true 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
