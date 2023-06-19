@@ -93,7 +93,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}    
 
  # Presentations
- - name: "Presentation Unit 1.1" 
+  - name: "Presentation Unit 1.1" 
     label: "Presentation Unit 1.1" 
     folder: "content/1_Variables/presentation1_1" 
     create: true 
@@ -101,7 +101,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}  
- - name: "Presentation Unit 1.2" 
+  - name: "Presentation Unit 1.2" 
     label: "Presentation Unit 1.2" 
     folder: "content/1_Variables/presentation1_2" 
     create: true 
@@ -109,7 +109,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}  
- - name: "Presentation Unit 1.3" 
+  - name: "Presentation Unit 1.3" 
     label: "Presentation Unit 1.3" 
     folder: "content/1_Variables/presentation1_3" 
     create: true 
