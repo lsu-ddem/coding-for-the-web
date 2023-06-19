@@ -8,8 +8,8 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/lsu-ddem/pathways-site"
-  description = "Educational material for Pre-Engineering"
+  editURL = "https://coding-for-the-web.lsupathways.org/admin"
+  description = "Educational material for Coding for the Web"
   author = "Tate Carson"
   showVisitedLinks = true
   themeVariant = "blue"
@@ -24,7 +24,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Educational material for Pre-Engineering"
+title = "Educational material for Coding for the Web"
 weight = 1
 languageName = "English"
 
