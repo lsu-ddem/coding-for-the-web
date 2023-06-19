@@ -4,6 +4,7 @@ outputs: ['Reveal']
 reveal_hugo.theme: 'moon'
 reveal_hugo.highlight_theme: 'solarized-light'
 hidden: true
+weight: 2
 ---
 
 # JavaScript 
