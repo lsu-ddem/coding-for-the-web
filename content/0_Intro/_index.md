@@ -9,5 +9,3 @@ weight: 1
 #### Lab:
 
 * [Instagram Lab](https://coding-for-the-web.lsupathways.org/0_intro/instagram_project/)
-
-  [](https://coding-for-the-web.lsupathways.org/0_intro/instagram_project/)
