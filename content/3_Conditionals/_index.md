@@ -13,7 +13,7 @@ weight: 4
 * [3.7 : Date and Object Methods](https://coding-for-the-web.lsupathways.org/3_conditionals/data_object/)
 * [3.8 : Math Methods](https://coding-for-the-web.lsupathways.org/3_conditionals/math_methods/)
 
-#### Projects:
+#### Labs:
 
 * [1. Jellyfish Lab](https://coding-for-the-web.lsupathways.org/3_conditionals/jellyfish_project/)
 * [2. Cloudy Sky Lab](https://coding-for-the-web.lsupathways.org/3_conditionals/cloud_sky_project/)
