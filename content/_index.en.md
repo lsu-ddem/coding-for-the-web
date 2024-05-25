@@ -8,7 +8,15 @@ weight: 0
 
 {{% link "coding-for-the-web.pdf" %}}
 
-## Course Outline
+### [Introduction to the Web](https://coding-for-the-web.lsupathways.org/0_intro/)
+
+#### Lessons:
+
+* ﻿[Introduction to the Web](https://coding-for-the-web.lsupathways.org/0_intro/intro_to_web/)
+
+#### Labs:
+
+* [Instagram Lab](https://coding-for-the-web.lsupathways.org/0_intro/instagram_project/)
 
 ### 1. Variables
 
