@@ -1,5 +1,6 @@
 ---
-title: "Coding for the Web"
+title: Coding for the Web
+weight: 1
 ---
 
 # Coding for the Web
@@ -16,8 +17,8 @@ title: "Coding for the Web"
  - 1.2 : Naming Variables
  - 1.3 : Data Types
   
-#### Projects:
- - 1. Rainbow Heart Project
+#### Labs:
+ - 1. Rainbow Heart Lab
   
 
 ### 2. Operators
@@ -31,11 +32,11 @@ title: "Coding for the Web"
  -	2.6 : Bitwise and Other Operators
  -	2.7 : Operator Exercises
  
-#### Projects:
- - 1. Thermometer Project
- - 2. Rainbow Dot Project
- - 3. MadLibs Project
- - 4. Animated Egg Project
+#### Labs:
+ - 1. Thermometer Lab
+ - 2. Rainbow Dot Lab
+ - 3. MadLibs Lab
+ - 4. Animated Egg Lab
   
 
 ### 3. Conditionals and Methods
@@ -51,10 +52,10 @@ title: "Coding for the Web"
  -	3.7 : Date and Object Methods
  -	3.8 : Math Methods
  
-#### Projects:
- - 1. Jellyfish Project
- - 2. Cloudy Sky Project
- - 3. Student Roster + Interactive Quiz Project
+#### Labs:
+ - 1. Jellyfish Lab
+ - 2. Cloudy Sky Lab
+ - 3. Student Roster + Interactive Quiz Lab
  
  
 
@@ -69,11 +70,11 @@ title: "Coding for the Web"
  - 4.6 : Function Returns
  - 4.7 : Writing Methods
 
-#### Projects:
- - 1. Sun and Moon
- - 2. Rock, Paper, Scissors / Glass, Pudding, Cat
- - 3. Feed da Panda
- - 4. Solar System
+#### Labs:
+ - 1. Sun and Moon Lab
+ - 2. Rock, Paper, Scissors / Glass, Pudding, Cat Lab
+ - 3. Feed da Panda Lab
+ - 4. Solar System Lab
  
  
 ### 5. HTML, CSS, and JavaScript"
@@ -86,10 +87,10 @@ title: "Coding for the Web"
  - 5.6 : Flex Box
  - 5.7 : createElement, appendChild, classList
   
-#### Projects:
- - 1. Lyrics Project
- - 2. Pokedex Project
- - 3. Website Project
+#### Labs:
+ - 1. Lyrics Lab
+ - 2. Pokedex Lab
+ - 3. Website Lab
 
 
 ### 6. Loops
@@ -100,10 +101,10 @@ title: "Coding for the Web"
 - 6.2 : While Loops
 - 6.3 : Nested Loops
 
-#### Projects: 
- - 1. Pushki's Cafe
- - 2. Flock of Birds Project
- - 3. Multiplication Tables
+#### Labs: 
+ - 1. Pushki's Cafe Lab
+ - 2. Flock of Birds Lab
+ - 3. Multiplication Tables Lab
  
 
 ### 7. JSON
@@ -115,9 +116,9 @@ title: "Coding for the Web"
  - 7.4 : JSON and HTML
  
 #### Projects: 
- - 1. Basketball Court Project
- - 2. Pets Only Dating Site
- - 3. Olympic Table Tennis Scoreboard
+ - 1. Basketball Court Lab
+ - 2. Pets Only Dating Site Lab
+ - 3. Olympic Table Tennis Scoreboard Lab
  
 ### 8. Miscellaneous Topics 
 #### Lessons:
@@ -129,7 +130,3 @@ title: "Coding for the Web"
  - 8.5 : Canvas & JSON
  - 8.6 : Visualizing Data with Canvas
  
-#### Projects: 
- - 1. Project 1
- - 2. Project 2
- - 3. Project 3
