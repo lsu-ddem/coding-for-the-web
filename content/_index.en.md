@@ -89,7 +89,7 @@ weight: 0
 
 ### [5. HTML, CSS, and JavaScript](https://coding-for-the-web.lsupathways.org/5_html/)
 
-* [5.1 : Classes and Ids](https://coding-for-the-web.lsupathways.org/5_html/classes_and_ids/)
+* [5.1 : Accessing HTML Elements in CSS](https://coding-for-the-web.lsupathways.org/5_html/classes_and_ids/)
 * [5.2 : Basic HTML Document Setup](https://coding-for-the-web.lsupathways.org/5_html/basic_setup/)
 * [5.3 : Accessing HTML and CSS in JavaScript](https://coding-for-the-web.lsupathways.org/5_html/accessing_html/)
 * [5.4 : Event Invoked Functions 2](https://coding-for-the-web.lsupathways.org/5_html/event_invoked_functions_2/)
