@@ -1,5 +1,5 @@
 ---
-title: Intro to JSON
+title: Intro to JSON & AJAX
 weight: 1
 ---
 
