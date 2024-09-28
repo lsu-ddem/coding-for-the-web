@@ -83,16 +83,16 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}        
-  - name: "Miscellaneous Topics" 
-    label: "Miscellaneous Topics" 
+  - name: "Advanced Topics" 
+    label: "Advanced Topics" 
     folder: "content/8_Advanced" 
     create: true 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}    
-  - name: "TEST" 
-    label: "TEST" 
+  - name: "Miscellaneous Topics" 
+    label: "Miscellaneous Topics"  
     folder: "content/9_Misc" 
     create: true 
     fields: 
