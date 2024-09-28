@@ -91,7 +91,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}    
-  -  name: "TEST" 
+  - name: "TEST" 
     label: "TEST" 
     folder: "content/9_Test" 
     create: true 
