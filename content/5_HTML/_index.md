@@ -12,6 +12,8 @@ weight: 6
  - [5.5 : CSS Properties - Color, Font-family, Size Units and Position](https://coding-for-the-web.lsupathways.org/5_html/css_properties/)
  - [5.6 : Flex Box](https://coding-for-the-web.lsupathways.org/5_html/flex_box/)
  - [5.7 : createElement, appendChild, classList](https://coding-for-the-web.lsupathways.org/5_html/createelement/)
+ - [5.8 : createElement, appendChild, classList](https://coding-for-the-web.lsupathways.org/5_html/constructor_functions/)
+ 
 
   
 #### Labs:
