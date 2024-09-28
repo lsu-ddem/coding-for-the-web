@@ -142,12 +142,12 @@ weight: 0
 * [8.4 : Complex Canvas Shapes + Drawings](https://coding-for-the-web.lsupathways.org/8_misc/complex_canvas/)
 * [8.5 : Canvas & JSON](https://coding-for-the-web.lsupathways.org/8_misc/canvas_and_json/)
 
-### [9. Miscellaneous Topics](https://coding-for-the-web.lsupathways.org/8_misc/)
+### [9. ](https://coding-for-the-web.lsupathways.org/8_misc/)[Advanced Topics](https://coding-for-the-web.lsupathways.org/8_misc/)[](https://coding-for-the-web.lsupathways.org/8_misc/)
 
 #### Lessons:
 
-* [9.1: Reading JSON with XMLHTTPRequest](https://coding-for-the-web.lsupathways.org/8_misc/reading_json/)
-* [9](https://coding-for-the-web.lsupathways.org/8_misc/reading_json/)[.2 : Intro to Canvas](https://coding-for-the-web.lsupathways.org/8_misc/intro_to_canvas/)
-* [9](https://coding-for-the-web.lsupathways.org/8_misc/reading_json/)[.3 : Canvas Basics](https://coding-for-the-web.lsupathways.org/8_misc/canvas_basics/)
-* [9](https://coding-for-the-web.lsupathways.org/8_misc/reading_json/)[.4 : Complex Canvas Shapes + Drawings](https://coding-for-the-web.lsupathways.org/8_misc/complex_canvas/)
-* [9](https://coding-for-the-web.lsupathways.org/8_misc/reading_json/)[.5 : Canvas & JSON](https://coding-for-the-web.lsupathways.org/8_misc/canvas_and_json/)
+* [8.1: Reading JSON with XMLHTTPRequest](https://coding-for-the-web.lsupathways.org/8_misc/)[](https://coding-for-the-web.lsupathways.org/9_misc/reading_json/)
+* [8.2 : Intro to Canvas](https://coding-for-the-web.lsupathways.org/9_misc/intro_to_canvas/)
+* [8.3 : Canvas Basics](https://coding-for-the-web.lsupathways.org/9_misc/canvas_basics/)
+* [8.4 : Complex Canvas Shapes + Drawings](https://coding-for-the-web.lsupathways.org/9_misc/complex_canvas/)
+* [8.5 : Canvas & JSON](https://coding-for-the-web.lsupathways.org/9_misc/canvas_and_json/)
