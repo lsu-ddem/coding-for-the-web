@@ -142,11 +142,11 @@ weight: 0
 * 8.4 : Debugging your Code
 * 8.5 : Javascript & Security
 
-### [9. ](https://coding-for-the-web.lsupathways.org/8_misc/)[Misc Topics](https://coding-for-the-web.lsupathways.org/8_misc/)[](https://coding-for-the-web.lsupathways.org/8_misc/)
+### [9. ](https://coding-for-the-web.lsupathways.org/9_misc/)[Misc Topics](https://coding-for-the-web.lsupathways.org/9_misc/)[](https://coding-for-the-web.lsupathways.org/9_misc/)
 
 #### Lessons:
 
-* [9.1: Reading JSON with XMLHTTPRequest](https://coding-for-the-web.lsupathways.org/8_misc/)[](https://coding-for-the-web.lsupathways.org/9_misc/reading_json/)
+* [9.1: Reading JSON with XMLHTTPRequest](https://coding-for-the-web.lsupathways.org/9_misc/)[](https://coding-for-the-web.lsupathways.org/9_misc/reading_json/)
 * [9.2 : Intro to Canvas](https://coding-for-the-web.lsupathways.org/9_misc/intro_to_canvas/)
 * [9.3 : Canvas Basics](https://coding-for-the-web.lsupathways.org/9_misc/canvas_basics/)
 * [9.4 : Complex Canvas Shapes + Drawings](https://coding-for-the-web.lsupathways.org/9_misc/complex_canvas/)
