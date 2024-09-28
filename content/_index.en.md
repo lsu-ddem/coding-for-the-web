@@ -132,7 +132,7 @@ weight: 0
 * [2. Pets Only Dating Site Lab](https://coding-for-the-web.lsupathways.org/7_json/pets_project/)
 * [3. Olympic Table Tennis Scoreboard Lab](https://coding-for-the-web.lsupathways.org/7_json/tennis_project/)
 
-### [8. ](https://coding-for-the-web.lsupathways.org/8_misc/)[Advanced Topics](https://coding-for-the-web.lsupathways.org/8_misc/)[](https://coding-for-the-web.lsupathways.org/8_misc/)
+### [8. Advanced Topics](https://coding-for-the-web.lsupathways.org/8_misc/)
 
 #### Lessons:
 
@@ -142,7 +142,7 @@ weight: 0
 * 8.4 : Debugging your Code
 * 8.5 : Javascript & Security
 
-### [9. ](https://coding-for-the-web.lsupathways.org/9_misc/)[Misc Topics](https://coding-for-the-web.lsupathways.org/9_misc/)[](https://coding-for-the-web.lsupathways.org/9_misc/)
+### [9. Misc Topics](https://coding-for-the-web.lsupathways.org/9_misc/)
 
 #### Lessons:
 
