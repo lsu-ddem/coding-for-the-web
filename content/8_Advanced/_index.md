@@ -1,11 +1,11 @@
 ---
-title: Miscellaneous Topics
-weight: 11
+title: Advanced Topics
+weight: 10
 ---
 #### Lessons:
 
-* [9.1: Reading JSON with XMLHTTPRequest](https://coding-for-the-web.lsupathways.org/8_misc/reading_json/)
-* [9.2 : Intro to Canvas](https://coding-for-the-web.lsupathways.org/8_misc/intro_to_canvas/)
-* [9.3 : Canvas Basics](https://coding-for-the-web.lsupathways.org/8_misc/canvas_basics/)
-* [9.4 : Complex Canvas Shapes + Drawings](https://coding-for-the-web.lsupathways.org/8_misc/complex_canvas/)
-* [9.5 : Canvas & JSON](https://coding-for-the-web.lsupathways.org/8_misc/canvas_and_json/)
+* [8.1: The Document Object Model](https://coding-for-the-web.lsupathways.org/8_misc/reading_json/)
+* [8.2 : External Libraries & APIs](https://coding-for-the-web.lsupathways.org/8_misc/intro_to_canvas/)
+* [8.3 : Form Validation and Regular Expressions](https://coding-for-the-web.lsupathways.org/8_misc/canvas_basics/)
+* [8.4 : Debugging your Code](https://coding-for-the-web.lsupathways.org/8_misc/complex_canvas/)
+* [9.5 : Javascript & Security](https://coding-for-the-web.lsupathways.org/8_misc/canvas_and_json/)

@@ -85,7 +85,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}        
   - name: "Miscellaneous Topics" 
     label: "Miscellaneous Topics" 
-    folder: "content/8_Misc" 
+    folder: "content/8_Advanced" 
     create: true 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
@@ -93,7 +93,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}    
   - name: "TEST" 
     label: "TEST" 
-    folder: "content/9_Test" 
+    folder: "content/9_Misc" 
     create: true 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
