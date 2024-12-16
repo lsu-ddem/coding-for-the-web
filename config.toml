@@ -28,6 +28,9 @@ title = "Educational material for Coding for the Web"
 weight = 1
 languageName = "English"
 
+markup
+  highlight
+    style = "gd"
 
 
 
