@@ -36,6 +36,7 @@ weight: 1
 let myVariable;
 let weeklyIncome; 
 ```
+
 * if we tried to print the value of either of these two variables, we would see "undefined"
 
 --- 
@@ -146,6 +147,7 @@ weeklyIncome = myVariable;
 * The latest version of JS has replaced the `var` keyword with `let`, so the declaration of variables will from here on use `let` instead of `var`,
 
 * It is important to note that these keywords are interchangeable, because many of the older examples that you find online utilize `var`
+
 ---
 
 ## Coding style
@@ -162,7 +164,10 @@ weeklyIncome = myVariable;
 
 1. Use "camelCase" for naming variables(covered more in depth in the next section). camelCase is the practice of keeping the first word lowercase, and having the rest of the words begin with an uppercase letter,
         
-Example: camelCase, javaScript, myThirdExample
+```
+// Examples: 
+let camelCase, javaScript, myThirdExample;
+```
       
 2. Put spaces before and after operators (+, -, *, /, %, etc) and put a space after commas. This helps with readability.
     
