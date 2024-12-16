@@ -5,6 +5,7 @@ reveal_hugo.theme: 'moon'
 reveal_hugo.highlight_theme: 'solarized-light'
 hidden: true
 weight: 2
+separator: "---"
 ---
 
 # JavaScript 
@@ -114,11 +115,9 @@ document.write(myVariable)
 ```
 --- 
 
-<p class="codepen" data-height="300" data-theme-id="light" data-slug-hash="your-pen-id" data-user="your-username" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 1px solid #ccc; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/jENyBdP
-  ">
- 1.1 Examples</a> <a href="https://codepen.io/lsuddem/pen/jENyBdP
-  "></a>
+<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="jENyBdP" data-pen-title="1.1 Examples" data-preview="true" data-editable="true" data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/jENyBdP">
+  1.1 Examples</a> by LSU DDEM (<a href="https://codepen.io/lsuddem">@lsuddem</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -180,11 +179,9 @@ There are conventions and syntax rules we will cover later on that are specific 
 
 # Exercise 1.1
 
-<p class="codepen" data-height="300" data-theme-id="light" data-slug-hash="your-pen-id" data-user="your-username" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 1px solid #ccc; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/gbYgWOy
-  ">
-Exercise 1.1</a> <a href="https://codepen.io/lsuddem/pen/gbYgWOy
-  "></a>
+<p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="gbYgWOy" data-pen-title="Exercise 1.1" data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/gbYgWOy">
+  Exercise 1.1</a> by LSU DDEM (<a href="https://codepen.io/lsuddem">@lsuddem</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
