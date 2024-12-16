@@ -5,184 +5,99 @@ reveal_hugo.theme: 'moon'
 reveal_hugo.highlight_theme: 'solarized-light'
 hidden: true
 ---
-
 # Conditional Statements 
 
----
-
 * Conditional Statements use operators to test different expressions, and execute code according to the outcome of the expressions.
-  * If statements, 
-  * Else statements, 
-  * Else if statements, and 
-  * switch statements.
+* There are four types of conditional statements in JavaScript: If statements, Else statements, Else if statements, and switch statements.
 * Conditional statements can be nested within each other, so that another expression can be tested after one has been proven true or false, to determine the next course of action for the program.
-
 ---
+## 1. If statements 
 
-## If statements 
-
-* If statements are pretty self explanatory. The statement tests "if" a condition within the parenthesis is true. 
-* If the condition is true, the code is executed. Like so:
-
-```js
-if (5 < 6){
-  console.log("Our first if statement!");
+* If statements are pretty self explanatory. The statement tests "if" a condition within the parentheses is true. If the condition is true, the code is executed. Like so:
+```
+if (5 < 6) {
+  document.write("Our first if statement!");
 }
 ```
-
+* The expression within the parenthesis is the condition being tested. Since the expression is true, the code executes. 
 ---
-
-* The expression within the parenthesis is the condition being tested. 
 * All of the conventions for using conditional and logical operators remain true when we use them in if statements.
+* Examples:
 
-```js
-let name = "Bob";
-if (name === "Bob"){
-  console.log("Hiiiii Bob!");
-}
 ```
+let name = "Bob";
+if (name === "Bob") {
+  console.log("Hi Bob!");
+}
 
-```js
 x = 20;
 y = 30;
-if ((x > 10) && (y < 50)) {
+if (x > 10 && y < 50) {
   console.log("True!");
 }
 ```
-
+* Q : Will these if statements execute or not? 
 ---
 
-## Else statements 
+## 2. Else statements 
 
-* Else statements follow if statements and/or else-if statements(covered next). 
-* Else statements are literally saying "if that condition was not true, execute this code" 
-
-```js
-let name = "Todd";
-if (name === "Lisa Frank") {
-  console.log("Hiiiii, Lisa Frank!");
+* Else statements follow if statements and/or else-if statements(covered next).
+* Else statements are literally saying "if that condition was not true, execute this code"
+* Example:
+```
+let secondName = "Todd";
+if (secondName === "John") {
+  console.log("Hello, John!");
 } else {
-  console.log("Hiiii, " + name);
+  console.log("Hi, " + secondName);
 }
 ```
-
+* Running this code will print "Hii, Todd" to the console because the else statement was executed since the variable 'name' was not equal to "John".
+---
+* More examples:
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="LEPxzVr" data-pen-title="3.1 Examples " data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/LEPxzVr">
+  3.1 Examples </a> by LSU DDEM (<a href="https://codepen.io/lsuddem">@lsuddem</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 ---
 
-## More examples:
-```js
-let money = 241352315;
-if (money > 10000000000) {
-  console.log("Wow you're rich.");
-} else {
-  console.log("You're still pretty rich but not *that* rich.");
-}
-```
-
----
-```js
-let nightTime = false;
-let morningTime = true;
-
-if (morningTime || nightTime) {
-  console.log("We used the or operator and it was truuuuu");
-} else {
-  console.log("We used the or operator and it was faaaalse");
-}
-
-if (morningTime && nightTime) {
-  console.log("We used the and operator and it was truuuuu");
-} else {
-  console.log("We used the and operator and it was faaaalse");
-}
-
-if (morningTime) {
-  console.log("Goooood morning");
-} else {
-  console.log("It isn't morning");
-}
-
-if (nightTime) {
-  console.log("Goooood night");
-} else {
-  console.log("It isn't night");
-}
-```
-
----
-
-## Else-if statements 
+## 3. Else-if statements 
 
 * Else-if statements are used in between if statements and else statements to test for an extra condition before running the "else code".
-* In other words, if the if statement proves false, the next expression evaluated will be the else if, which will test for a new condition. 
+* In other words, if the if statement proves false, the next expression evaluated will be the else if, which will test for a new condition.
 * If the else if is also false, the next else if expression is evaluated, or the else code is executed.
-
----
-
 * We can have multiple else if statements before the final else statement
-
-```js
+---
+* Example:
+```
 let name1 = "Todd";
 let name2 = "Katy";
 let name3 = "Max";
 if (name1 == "Katy") {
-  console.log("Hiiiii, Katy!");
+  console.log("Hi, Katy!");
 } else if (name1 == "Max") {
-  console.log("Hiiiii, Max!");
+  console.log("Hi, Max!");
 } else {
-  console.log("Hiiii, " + name1);
+  console.log("Hi, " + name1);
 }
 ```
+* "Hi, Todd" is printed to the console because the first if statement and else if statement proved false, so the else statement was executed.
+--- 
+* Further Examples: 
 
-* What will be printed?
-  
----
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="wBwgrzB" data-pen-title="3.1 Examples_1" data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/wBwgrzB">
+  3.1 Examples_1</a> by LSU DDEM (<a href="https://codepen.io/lsuddem">@lsuddem</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-```js
-if (morningTime) {
-  console.log("Goooood morning");
-} else if (nightTime) {
-  console.log("Goooood night");
-} else {
-  console.log("What time is it?!?!");
-}
-```
-
-* Running the code at this point, "Gooood morning" would be printed to the console. If we update the values of the variables and run the expressions again, we will see a new value printed to the console:
-
----
-
-```js
-morningTime = false;
-nightTime = true;
-if (morningTime) {
-    console.log("Goooood morning");
-} else if (nightTime) {
-    console.log("Goooood night");
-} else {
-    console.log("What time is it?!?!");
-}
-```
-
-* Now, "Gooood night" will be printed to the console. Finally, we will change the values of the variable so that we arrive at the else statement:
-
----
-
-```js
-nightTime = false;
-if (morningTime) {
-  console.log("Goooood morning");
-} else if (nightTime) {
-  console.log("Goooood night");
-} else {
-  console.log("What time is it?!?!");
-}
-```
-
----
 
 * As mentioned, conditional statements can be nested within each other. For example:
 
-```js
+```
 let color = "purple";
 if (color == "red") {
   console.log(color);
@@ -193,16 +108,15 @@ if (color == "red") {
     console.log("First nested if-statement was false");
   }
 }
-```
 
+```
+* Q : What will be printed to the console when this code runs?
 ---
-# Exercises
+# Exercise 3.1
 
-* to get the length of a string: 
-  
-```js
-let string = 'helloooo'
-console.log(string.length) // 8 
-```
-
-[back](..)
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="qEWRPRy" data-pen-title="Exercise 3.1" data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/qEWRPRy">
+  Exercise 3.1</a> by LSU DDEM (<a href="https://codepen.io/lsuddem">@lsuddem</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

@@ -153,7 +153,7 @@ let newCar1 = {make:"Toyota", model:"Prius", color:"Red"};
 * Bracket Notation uses a pair of brackets after the object name, with the property name placed inside of the brackets in quotation marks
 
 * Dot Notation is more often used because it is easier to read and is more efficient, as we have to type less characters than we would using bracket notation; however the two are interchangeable
---
+---
 We can use this to print properties or display our properties on the webpage: 
 ```
 console.log(newCar.make)
@@ -163,66 +163,32 @@ document.write(newCar1[make])
 ```
 newCar1.year = 2016;
 ```
-
-Now, if we print our entire object to the console, we will see that the new property value pair has been added. 
-
-Code
+* Now, if we print our entire object to the console, we will see that the new property value pair has been added. 
+```
 console.log(newCar1)
-End 
+```
+Console View: 
+<img src="../../media/1_3_object.png" alt="Image description" width="300">
+---
 
-We can also create an empty object and then add properties to it, like this:
-
-Code
+* We can also create an empty object and then add properties to it, like this:
+```
 let myNewObject = new Object();
 myNewObject.firstProperty = “first property”;
 myNewObject.secondProperty = 23;
-End 
-    
-The "new Object()" value is called a Constructor. 
+```
+* The "new Object()" value is called a Constructor. 
+* A constructor is code that creates, or *constructs*, a new instance of something that has already been programmed. 
+* In this case, the constructor creates a new instance of an object. Objects have already been programmed into the JavaScript library, so the constructor uses the code as a blueprint to create our new object.  
+* We are able to program our own constructors, and use other constructors built into the JavaScript library, but we will cover these more in depth in a later segment.
 
-A constructor is code that creates, or *constructs*, a new instance of something that has already been programmed. 
+# Exercise 1.3
 
-In this case, the constructor creates a new instance of an object. Objects have already been programmed into the JavaScript library, so the constructor uses the code as a blueprint to create our new object.  
-  
-We are able to program our own constructors, and use other constructors built into the JavaScript library, but we will cover these more in depth in a later segment.
-
-///////////////////////// Exercises /////////////////////////
-// 1. Declare four new variables: summer, fall, winter, and spring. Set these variables to their boolean value, depending on which season it currently is. The current season will be 'true'.
-// 2. Declare a new array named "endangeredAnimals", with the following elements: 
-//    Giant Panda, Siberian Tiger, Snow Leopard, Sea Otter, Asian Elephant, Gorilla, and Tasmanian Devil.
-// 3. Print "Snow Leopard" to the console by accessing the element through the endangeredAnimals array.
-// 4. Giant Pandas are no longer endangered. Assign the element containing "Giant Panda" in the array to the new value of "Orangutan". Print this to the console by accessing the element through the endangeredAnimals array.
-// 5. Print the entire contents of endangeredAnimals to the console.
-// 6. Create a new object named "me" with the following properties: name, age, eye color, hair color, and favorite food
-
-//Extra Exercises:
-
-//1. Declare five different variables that store: a string, a number, a boolean, an array, and an object. You can name them anything you want, and give them values of your choice. 
-
-//2. Make your own array called colors, and fill it with three colors of your choice!
-
-//3. Try calling one of the elements from the array in the console. We can type this directly into the console by typing colors[0]. (or colors[1] or colors[2]).
-
-//4. Now try typing colors[3] into the console. Explain in a comment why this doesn't work!
-
-//5. Change one of the elements in your colors array to a new color, using what we just learned. 
-//Log the new element into the console. 
-
-//More Extra Exercises:
-
-//1. Write what the following data types are. You can write the data types next to the code as a comment. 
-
-let age = 197;
-let today = "08/19/2021";
-let itIsHotOutside = true;
-let weather = "ok";
-let todayIsAMonday = false;
-let daysOfTheSchoolWeek = ["monday", "tuesday", "wednesday", "thursday", "friday"];
-
-//2. Print the variable "age" to the console. 
-
-//3. Print the first element of the daysOfTheSchoolWeek array to the console. 
-
-//4. Make a new array called colorsOfTheRainbow, and put the colors of the rainbow in it (as strings)
-
-//5. Print the whole array colorsOfTheRainbow to the console. 
+<p class="codepen" data-height="300" data-theme-id="light" data-slug-hash="your-pen-id" data-user="your-username" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 1px solid #ccc; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/EaYZXVr
+  ">
+Exercise 1.2</a> <a href="https://codepen.io/lsuddem/pen/EaYZXVr
+  "></a>
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

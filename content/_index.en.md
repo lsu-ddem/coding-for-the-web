@@ -39,7 +39,7 @@ weight: 0
 * [2.3 : String Operators](https://coding-for-the-web.lsupathways.org/2_operators/string_operators/)
 * [2.4 : Comparison Operators](https://coding-for-the-web.lsupathways.org/2_operators/comparison_operators/)
 * [2.5 : Conditional and Logical Operators](https://coding-for-the-web.lsupathways.org/2_operators/conditional_operators/)
-* [2.6 : Bitwise and Other Operators](https://coding-for-the-web.lsupathways.org/2_operators/bitwise_operators/)
+* [2.6 : Other Operators](https://coding-for-the-web.lsupathways.org/2_operators/other_operators/)
 * [2.7 : Operator Exercises](https://coding-for-the-web.lsupathways.org/2_operators/operators_exercises/)
 
 #### Labs:
