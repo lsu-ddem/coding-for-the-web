@@ -192,7 +192,7 @@ console.log(large.toLowerCase());
 ```
 * Result: 
 
-<img src="../../media/3_8_9.png" alt="Image description" width="300">
+<img src="../../media/3_4_9.png" alt="Image description" width="300">
 
 
 ---
@@ -216,7 +216,7 @@ console.log(arrayOfValues[3]);
 ```
 * Result: 
 
-<img src="../../media/3_8_10.png" alt="Image description" width="300">
+<img src="../../media/3_4_10.png" alt="Image description" width="300">
 
 ---
 
