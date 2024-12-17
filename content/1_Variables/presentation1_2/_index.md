@@ -1,8 +1,10 @@
 ---
 title: Naming Variables
 outputs: ['Reveal']
-reveal_hugo.theme: 'moon'
-reveal_hugo.highlight_theme: 'solarized-light'
+reveal_hugo.theme: 'night'
+reveal_hugo.highlight_theme: 'javascript'
+width: 960
+height: 700
 hidden: true
 ---
 

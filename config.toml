@@ -13,7 +13,7 @@ style = "js"
 [params]
   editURL = "https://coding-for-the-web.lsupathways.org/admin"
   description = "Educational material for Coding for the Web"
-  author = "Tate Carson"
+  author = "Treya Nash"
   showVisitedLinks = true
   themeVariant = "blue"
 
