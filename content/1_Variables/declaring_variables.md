@@ -3,6 +3,8 @@ title: Declaring Variables
 weight: 1
 ---
 
+[original slides](../old_presentation1_1)
+
 [slides](../presentation1_1)
 
 

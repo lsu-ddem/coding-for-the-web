@@ -2,7 +2,7 @@
 title: Naming Variables
 outputs: ['Reveal']
 reveal_hugo.theme: 'night'
-reveal_hugo.highlight_theme: 'js'
+reveal_hugo.highlight_theme: 'solarized-light'
 width: 1280
 height: 720
 hidden: true
@@ -20,7 +20,9 @@ let blank;
 * The identifier of the variable in the above example is "blank". 
 
 * There are a few rules in regards to assigning variables' identifiers (in other words, rules for naming variables in JavaScript). 
+
 ---
+
 ### Rules for Naming Variables 
 
 #### Rule 1
@@ -28,6 +30,7 @@ let blank;
 * The letter of the first word in an identifier should always be lowercase, and the first word of any proceeding words should be uppercase. In other words, use camelcase!
 
 ---
+
 #### Rule 2
 * Names are case sensitive.
 * If you declare a variable with the identifier myVariable, it cannot be accessed by saying myvariable or myVARIABLE
