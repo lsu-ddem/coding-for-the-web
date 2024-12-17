@@ -2,13 +2,13 @@
 title: Naming Variables
 outputs: ['Reveal']
 reveal_hugo.theme: 'night'
-reveal_hugo.highlight_theme: 'javascript'
-width: 960
-height: 700
+reveal_hugo.highlight_theme: 'js'
+width: 1280
+height: 720
 hidden: true
 ---
 
-# Naming Variables 
+## Naming Variables 
     
 * Remember that we declare a new variable by typing the let keyword and then assigning a name to the variable. 
 * A variable's name is also known as an identifier.
@@ -21,7 +21,7 @@ let blank;
 
 * There are a few rules in regards to assigning variables' identifiers (in other words, rules for naming variables in JavaScript). 
 ---
-## Rules for Naming Variables 
+### Rules for Naming Variables 
 
 #### Rule 1
 * Names must begin with a letter, an underscore, or a dollar sign $ (best coding practice starts names with a lowercase letter). 
@@ -39,6 +39,7 @@ let blank;
 ---
 
 The following are examples of acceptable identifiers(aka names):
+
 ```
 let monthlyRent = 600;
 let carNote$ = 300;
@@ -53,13 +54,11 @@ Next, we are going to discuss the different data types a variable can store.
 
 ---
 
-# Exercise 1.2
+## Exercise 1.2
 
-<p class="codepen" data-height="300" data-theme-id="light" data-slug-hash="your-pen-id" data-user="your-username" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 1px solid #ccc; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/wBwgdzB
-  ">
-Exercise 1.2</a> <a href="https://codepen.io/lsuddem/pen/wBwgdzB
-  "></a>
+<p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="wBwgdzB" data-pen-title="Exercise 1.2" data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/wBwgdzB">
+  Exercise 1.2</a> by LSU DDEM (<a href="https://codepen.io/lsuddem">@lsuddem</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
