@@ -7,6 +7,9 @@ theme = ["hugo-pathways-theme", "reveal-hugo"]
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
+[markup.highlight]
+style = "js"
+
 [params]
   editURL = "https://coding-for-the-web.lsupathways.org/admin"
   description = "Educational material for Coding for the Web"
