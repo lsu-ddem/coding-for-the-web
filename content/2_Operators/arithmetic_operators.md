@@ -18,11 +18,13 @@ weight: 1
 
 ```
 var usingAssignmentOperator = “the equals sign is the assignment operator” 
-
 ```
-* In total, there are seven categories of operators in JavaScript. 
-* These include operators for arithmetic operations, assignments, string operations, comparisons, logical operations, conditional operations, and other types of operators that are worth mentioning.
----
+
+In total, there are seven categories of operators in JavaScript. 
+
+These include operators for arithmetic operations, assignments, string operations, comparisons, logical operations, conditional operations, and other types of operators that are worth mentioning.
+
+
 ## Arithmetic Operators
 * JavaScript's arithmetic operators are used to perform arithmetic in your code. 
 Arithmetic operators each have a symbol known as the operator that is used to perform the operation.
