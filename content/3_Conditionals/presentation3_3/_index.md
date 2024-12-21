@@ -18,6 +18,9 @@ hidden: true
 * Primitive values are simply values stored to variables without creating new objects.
 * For all of the types of variables we have created so far, there was a way for us to declare those variables as objects. 
 * If we declare variables as objects, they would be of the reference type instead of primitive.
+
+---
+
 * For example, lets simply declare a new variable that stores a string of text:
 
 ```js
@@ -25,6 +28,7 @@ let primitiveWords = "Have a really great day, like maybe even the best day ever
 ```
 
 * The variable 'primitiveWords' is a string primitive. 
+
 ---
 
 * JavaScript identifies six data types as primitive: undefined, null, boolean, number, string, and symbol.
@@ -37,6 +41,7 @@ let randomVariable;
 let placeHolder = null;
 ```
 ---
+
 * Now lets create the reference type equivalent of the primitive variable 'words':
 
 ```js
