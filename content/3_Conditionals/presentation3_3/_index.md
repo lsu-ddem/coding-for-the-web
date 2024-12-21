@@ -8,6 +8,7 @@ hidden: true
 
 ### Using JS Objects and Methods 
 
+
 * In lesson 1.3 discussing data types, we learned how to create objects in JavaScript.
 * Remember that objects store multiple values within one variable, and their values are attributed to their "properties"
 * We can obtain the value of an object's property by typing the objectName.objectProperty
