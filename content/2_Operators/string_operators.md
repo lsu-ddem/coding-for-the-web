@@ -10,12 +10,12 @@ weight: 3
 
 [slides](../presentation2_3)
 
-# String Operators 
+### String Operators 
 
 * JavaScript's string operators are used to attach strings to one another, or to attach variables to strings.
 * String operators each have a symbol known as the operator that is used to perform the operation
 
-## 1. Concatenation : concatenate is another word for add. Concatenating two strings simply means adding or attaching them to one another.
+#### 1. Concatenation : concatenate is another word for add. Concatenating two strings simply means adding or attaching them to one another.
 * Operator: + 
 * Examples:
 ```
@@ -44,7 +44,7 @@ console.log(sentenceWithNumbers);
 * Typically if you are printing a string and then a new variable or string, you want to make sure there is a space included at the end of the first string, or the beginning of the second.  
 * If a numeric value is printed before another or before a string, you can concatenate a single space before the next number, or include a space in the beginning of the next string
 ---
-## 2. Concatenate-Equals : assigning a variable to its original value plus some specified value concatenated to it
+#### 2. Concatenate-Equals : assigning a variable to its original value plus some specified value concatenated to it
 * Operator: += 
 * Examples:
 ```
@@ -56,7 +56,7 @@ x += y + z;
 ```
 * Q : What is the value of variable x? Is this equal to the value of sentence?
 
-# Exercise 2.3
+#### Exercise 2.3
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="LEPxjQz" data-pen-title="Exercise 2.3" data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/lsuddem/pen/LEPxjQz">
