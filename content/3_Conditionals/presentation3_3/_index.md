@@ -49,6 +49,9 @@ let referenceWords = new String("Have a really great day, like maybe even the be
 ```
 
 * the variable referenceWords is a String Object.
+
+---
+
 * The purpose of learning about the difference between primitive and reference types is to understand the use of JavaScript methods.
 * JavaScript methods exist for the different objects in the JavaScript library.
 * An object's method is essentially a function that was programmed as a property of that object, and therefore we can invoke the function similarly to how we retrieve any property of an object: objectName.objectMethod()
@@ -61,11 +64,11 @@ let referenceWords = new String("Have a really great day, like maybe even the be
 * As you saw, we can create a reference type variable that stores a string object.
 * On this object, we can use the methods created for JavaScript String Objects, such as:
 
-.length : returns the length of a string\
+1. .length : returns the length of a string\
 
-.indexOf("word") : returns the index of the first occurrence of the specified text within quotes
+2. .indexOf("word") : returns the index of the first occurrence of the specified text within quotes
 
-.slice(start, end) : splits a string into two strings, the new string containing the text within the start and end indexes 
+3. .slice(start, end) : splits a string into two strings, the new string containing the text within the start and end indexes 
 
 ---
 
@@ -78,6 +81,8 @@ console.log(referenceWords.indexOf("great"));  // this prints 14 to the console
 console.log(referenceWords.indexOf("why"));  // this prints 68 to the console
 ```
 
+---
+
 * However, if I try to use these methods with the primitiveWords variable....
 
 ```js
@@ -88,6 +93,9 @@ console.log(primitiveWords.indexOf("why"));  // this prints 68 to the console
 ```
 
 * The methods still work even though primitiveWords is a primitive type!!!
+
+--- 
+
 * This is because, whenever these methods are invoked, JavaScript treats primitive values as objects in order to use the many methods in the JS library.
 * This means that we can apply the JavaScript methods for most objects to their primitive equivalent.
 * The rest of this module will cover pre-existing methods that can be used on different types of objects. 
