@@ -61,7 +61,7 @@ console.log(myTags);
 ```
 * Console View: 
 
-* <img src="../../media/5_3_1.png" alt="Image description" width="400">
+<img src="../../media/5_3_1.png" alt="Image description" width="400">
 
 ---
 
