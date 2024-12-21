@@ -3,91 +3,117 @@ title: Accessing HTML and CSS in JavaScript
 weight: 3
 ---
 
-[slides](../presentation5_1)
+[slides](../presentation5_3)
 
 <p data-height="600" data-theme-id="33744" data-slug-hash="8d365c1123fe05660c9a74f99687b7ee" data-default-tab="js" data-user="lsuddem" data-embed-version="2" data-pen-title="5.3 Accessing HTML and CSS in JavaScript" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/lsuddem/pen/abqYaJa/8d365c1123fe05660c9a74f99687b7ee">5.3 Accessing HTML and CSS in JavaScript</a> by LSU DDEM (<a href="https://codepen.io/lsuddem">@lsuddem</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-### HTML, CSS, and Javascript
 
-As we have progressed through this course, we have already learned some of the basics of HTML and CSS. In this chapter, we will look at integrating HTML, CSS, and Javascript in more detail.
+### Accessing HTML and CSS in Javascript 
 
-We will begin by looking at CSS syntax, since we haven't covered it as much as Javascript and HTML. 
+#### document.getElementById()
 
-#### Accessing HTML in CSS
+document.getElementById() is used to access an element by its id name. 
 
-CSS stands for Cascading Style Sheets. CSS is used to style HTML elements, and generally to make your websites look amazing! 
-
-Similarly to accessing HTML in Javascript, we can access HTML in CSS using elements types, classes, and ids (and in some other ways, but this is enough for now!)
-
-Consider the following element: 
+For this method, we DO NOT use the hash sign (#), because JavaScript already knows that it is looking for an id. So if we have an element, like this: 
 
 ```html
-<p id=para1 class="paraClass"> My Paragraph </p>
+<h1 id="header1">This is my Header</h1>
+```
+We could access it in javascript like this: 
+```js
+let myHeader = document.getElementById("header1");
+myHeader.innerHTML = "New Text" 
 ```
 
-To access it by its element type in CSS, we would use the following syntax:
+In this example, the text in the header will change to "New Text". 
 
-```css 
-p {
-    font-size: 30px;
-}
-```
+Practice in Codepen 
 
-We simply type out the element type, followed by curly brackets, in which we put all the styling that we want. The styling that we apply to it (in this case, changing the font size), will apply to every element of that type. 
-
-CSS properties are in property and value pairs, with a colon inbetween, and a semi-colon between each pair. Properties are pre-defined, and the format of values changes depending on the type of property. 
-
-To access our element by its class, we would use the following syntax:
-
-```css
-.paraClass {
-    color: blue;
-    background-color: green;
-}
-```
-
-We use a period to access classes. Again, this CSS will style any element in the paraClass class. 
-
-To access this element by its id, we would use the following syntax: 
-
-```css 
-#para1 {
-  color: red;
-  font-size: 10vh
-}
-```
-We use a hash symbol to access the id. This will style only the specific element that has this id. An id styling will always take precedence over a class or element. This is useful, becuase you can use a class to style the basic properties of elements that you want to look the same, and id to make more specific stylings. 
-
-The codepen example shows a few different elements with ids and classes to illustrate the specificity of different stylings. 
-
-Codepen Example:
-
-<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="zxONQpR" data-pen-title="5.1 Example " data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/zxONQpR">
-  5.1 Example </a> by LSU DDEM (<a href="https://codepen.io/lsuddem">@lsuddem</a>)
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="wBwgLZy" data-pen-title="5.3 Practice" data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/wBwgLZy">
+  5.3 Practice</a> by LSU DDEM (<a href="https://codepen.io/lsuddem">@lsuddem</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+#### document.getElementsByTagName()
 
-##### Accessing the Body of the Webpage
+The getElementsByTagName() method returns a HTML collection of all elements with a specified tag name.
 
-We can apply stylings to the whole webpage by accessing the body element in CSS. Because there is only one body of the webpage, we access the body just with the word "body", we don't need to use classes or ids: 
+A collection is an array-like list of HTML elements.
 
-```css
-body {
-    background-color: pink;
-    font-family: Arial;
-}
+Let's look at an example:
+
+```html
+<p>My Paragraph</p>
+<p>My Second Paragraph</p>
+<p>My Third Paragraph</p>
 ```
-This will change the background color and font of the whole document. 
 
-### Exercise 5.1
+```js
+let myTags = document.getElementsByTagName("p");
+console.log(myTags);
+```
 
-<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="qEWRGYJ" data-pen-title="Exercise 5.1" data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/qEWRGYJ">
-  Exercise 5.1</a> by LSU DDEM (<a href="https://codepen.io/lsuddem">@lsuddem</a>)
+Console View: 
+
+<img src="../../media/5_3_1.png" alt="Image description" width="400">
+
+We can see that we get an object-like list, which is ordered by number. 
+
+Because our list is in numerical order, we can access each element by using square brackets, similar to accessing elements of an array, so if we want to change the text in the first paragraph element, we could add the following code:
+
+```js
+myTags[0].innerHTML = "This is the first paragraph";
+
+//Or to change the text in the second paragraph, uncomment the following code:
+
+myTags[1].innerHTML = "This is the second paragraph";
+```
+
+Example in Codepen
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="XJrpLwv" data-pen-title="Untitled" data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/XJrpLwv">
+  Untitled</a> by LSU DDEM (<a href="https://codepen.io/lsuddem">@lsuddem</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+#### Accessing CSS in JavaScript
+
+In order to change CSS styling in JavaScript, we first need to access the HTML element that we want to style, then, we add the style property, which specifies that we're accessing CSS. Next, we add whatever property we want to change, for example color. Here is an example:
+
+```html
+<h1 id="h1"> My Header </h1>
+<p id="para1"> My Paragraph </p>
+```
+```js
+document.getElementById("para1").style.color = "green";
+```
+
+Notice that in CSS, we put the name of the color without quotes, but in JavaScript, we need to use quotes to make the color a string. 
+
+We can also use variables to store elements, and then change their style properties: 
+
+```js
+let header = document.getElementById("h1");
+header.style.color = "orange"
+```
+
+In CSS, we use dashes inbetween words for different properties, for example background-color, or font-size. JavaScript does not recognize dashes in properties, so in JavaScript, we use camelCase, so backgroundColor or fontSize. 
+
+So if we wanted to change the background color of the body, we would do it like this:
+
+```js
+document.body.style.backgroundColor = "violet"
+```
+### Exercise 5.3
+
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="azopevv" data-pen-title="Exercise 5.3" data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lsuddem/pen/azopevv">
+  Exercise 5.3</a> by LSU DDEM (<a href="https://codepen.io/lsuddem">@lsuddem</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
