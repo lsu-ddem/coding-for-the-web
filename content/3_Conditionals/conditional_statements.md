@@ -20,7 +20,8 @@ weight: 1
 #### 1. If statements 
 
 * If statements are pretty self explanatory. The statement tests "if" a condition within the parentheses is true. If the condition is true, the code is executed. Like so:
-```
+
+```js
 if (5 < 6) {
   document.write("Our first if statement!");
 }
@@ -30,7 +31,7 @@ if (5 < 6) {
 * All of the conventions for using conditional and logical operators remain true when we use them in if statements.
 * Examples:
 
-```
+```js
 let name = "Bob";
 if (name === "Bob") {
   console.log("Hi Bob!");
@@ -42,8 +43,8 @@ if (x > 10 && y < 50) {
   console.log("True!");
 }
 ```
-* Q : Will these if statements execute or not? 
 
+* Q : Will these if statements execute or not? 
 
 #### 2. Else statements 
 
@@ -59,6 +60,7 @@ if (secondName === "John") {
 }
 ```
 * Running this code will print "Hii, Todd" to the console because the else statement was executed since the variable 'name' was not equal to "John".
+
 * More examples:
 <p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="LEPxzVr" data-pen-title="3.1 Examples " data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/lsuddem/pen/LEPxzVr">
