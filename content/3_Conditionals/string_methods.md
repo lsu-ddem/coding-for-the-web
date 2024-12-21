@@ -11,10 +11,13 @@ weight: 4
 [slides](../presentation3_4)
 
 ### String Methods 
+
 #### 1. String Length
+
 * syntax: .length
 
 * Examples:
+
 ```js
 let longestWord = "pneumonoultramicroscopicsilicovolcanoconiosis";
 console.log(longestWord.length);
@@ -22,11 +25,13 @@ console.log(longestWord.length);
 let sentence = "The longest word in the English language is " + longestWord;
 console.log(sentence.length);
 ```
+
 * Result: 
 
 <img src="../../media/3_4_1.png" alt="Image description" width="200">
 
 #### 2. Finding the first occurance of text within a string
+
 * syntax: .indexOf("")
 
 * Examples:
@@ -51,15 +56,17 @@ console.log(
   "The word best shows up last at index " + repeating.indexOf("best", 14)
 );
 ```
+
 * Result: 
 
 <img src="../../media/3_4_2.png" alt="Image description" width="300">
 
-
 #### 3. Finding the last occurance of text within a string
+
 * syntax: .lastIndexOf("")
 
 * Examples:
+
 ```js
 repeating = "Dogs are the best. Dogs are the best. Dogs are the best.";
 console.log(
@@ -78,6 +85,7 @@ console.log(
   "Waldo was last seen at index " + waldo.lastIndexOf("where's waldo", 25)
 );
 ```
+
 * Result: 
 
 <img src="../../media/3_4_3.png" alt="Image description" width="300">
@@ -102,23 +110,24 @@ if (randomStuff.search("purse") != -1) {
   console.log("No your purse wasn't in that string :( ");
 }
 ```
+
 * Result: 
 
 <img src="../../media/3_4_4.png" alt="Image description" width="300">
 
-
 #### 5. Instead of finding out the index of a specific character, this finds the character at a specific index number. 
 syntax: charAt(index)
 examples: 
-```
+
+```js
 let myAnimal = "zebra";
 if (myAnimal.charAt(0) == "t" || myAnimal.charAt(0) == "u" || myAnimal.charAt(0) == "v" || myAnimal.charAt(0) == "w" || myAnimal.charAt(0) == "x" || myAnimal.charAt(0) == "y" || myAnimal.charAt(0) == "z") {
   console.log("This animal begins with a letter between t-z");
 } else {
   console.log("This animal begins with a letter between a-s");
 }
-
 ```
+
 * Result: 
 
 <img src="../../media/3_4_5.png" alt="Image description" width="300">
@@ -130,6 +139,7 @@ if (myAnimal.charAt(0) == "t" || myAnimal.charAt(0) == "u" || myAnimal.charAt(0)
 #### 6. Slice
 * syntax: .slice(start, end)
 Examples:
+
 ```js
 repeating = "Dogs are the best. Dogs are 100% the best. Dogs are the best.";
 let percentOfBestDogs = repeating.slice(19, 42);
@@ -138,20 +148,23 @@ console.log(percentOfBestDogs);
 let cut = "Cut my life into pizzas, dis is my last resort";
 console.log(cut.slice(0, 23));
 ```
+
 * Result: 
 
 <img src="../../media/3_4_6.png" alt="Image description" width="300">
 
 #### 7. Replacing content in a string. The replace method returns a new string with the changed values instead of altering the original string
+
 * syntax: .replace("old", "new")
 
 * Examples:
+
 ```js
 let theTruth = "Dogs are the best.";
 let betterDogs = repeating.replace("best", "all time greatest");
 console.log(betterDogs);
-
 ```
+
 * In the situation that we have multiple instances of the word being replaced, and we want to replace *all* of them, follow this syntax:
 * Remove the quotation marks from the "old" string and place a forward slash (/) before and after the phrase
 * After the last forward slash, include the letter 'g'. This tells JS to alter all instances of the phrase within the slashes. (g is for global!)
@@ -161,25 +174,29 @@ console.log(betterDogs);
 ```js
 theTruth = "Dogs are the best. Dogs are 100% the best. Dogs are the best.";
 console.log(theTruth.replace(/best/g, "greatest"));
-
 ```
+
 * Results for both examples: 
 
 <img src="../../media/3_4_7.png" alt="Image description" width="300">
 
 #### 8. Converting string to uppercase
+
 * syntax: .toUpperCase()
 
 * Examples:
-```
+
+```js
 let small = "i want to be in uppercase :( ";
 console.log(small.toUpperCase());
 ```
+
 * Result: 
 
 <img src="../../media/3_4_8.png" alt="Image description" width="300">
 
 #### 9. Converting string to lowercase
+
 * syntax: .toLowerCase()
 
 * Examples:
@@ -188,6 +205,7 @@ console.log(small.toUpperCase());
 let large = "I WANT TO BE IN LOWERCASE :";
 console.log(large.toLowerCase());
 ```
+
 * Result: 
 
 <img src="../../media/3_4_9.png" alt="Image description" width="300">
@@ -211,6 +229,7 @@ let values = "12 13 14 15 16 17 18 19";
 let arrayOfValues = values.split(" ");
 console.log(arrayOfValues[3]);
 ```
+
 * Result: 
 
 <img src="../../media/3_4_10.png" alt="Image description" width="300">
