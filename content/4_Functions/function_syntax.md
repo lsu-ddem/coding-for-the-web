@@ -152,10 +152,11 @@ circumferenceCalculator(radiuses[2]); //passing in the element in the radiuses a
 ```
 
 Now, if you check your console, you will see this printed out:
-//"My function found that the circumference of a circle with a radius of 3 is 18.84955592153876"
-//"My function found that the circumference of a circle with a radius of 7 is 43.982297150257104"
-//"My function found that the circumference of a circle with a radius of 12 is 75.39822368615503"
-xw
+```cs
+"My function found that the circumference of a circle with a radius of 3 is 18.84955592153876"
+"My function found that the circumference of a circle with a radius of 7 is 43.982297150257104"
+"My function found that the circumference of a circle with a radius of 12 is 75.39822368615503"
+```
 
 Example in Codepen: 
 
