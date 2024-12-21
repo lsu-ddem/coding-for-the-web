@@ -51,7 +51,8 @@ if (x > 10 && y < 50) {
 * Else statements follow if statements and/or else-if statements(covered next).
 * Else statements are literally saying "if that condition was not true, execute this code"
 * Example:
-```
+
+```js
 let secondName = "Todd";
 if (secondName === "John") {
   console.log("Hello, John!");
@@ -59,6 +60,7 @@ if (secondName === "John") {
   console.log("Hi, " + secondName);
 }
 ```
+
 * Running this code will print "Hii, Todd" to the console because the else statement was executed since the variable 'name' was not equal to "John".
 
 * More examples:
