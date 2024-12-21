@@ -76,9 +76,10 @@ if (secondName === "John") {
 * In other words, if the if statement proves false, the next expression evaluated will be the else if, which will test for a new condition.
 * If the else if is also false, the next else if expression is evaluated, or the else code is executed.
 * We can have multiple else if statements before the final else statement
----
+
 * Example:
-```
+
+```js
 let name1 = "Todd";
 let name2 = "Katy";
 let name3 = "Max";
@@ -90,8 +91,9 @@ if (name1 == "Katy") {
   console.log("Hi, " + name1);
 }
 ```
+
 * "Hi, Todd" is printed to the console because the first if statement and else if statement proved false, so the else statement was executed.
---- 
+
 * Further Examples: 
 
 <p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="wBwgrzB" data-pen-title="3.1 Examples_1" data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -104,7 +106,7 @@ if (name1 == "Katy") {
 
 * As mentioned, conditional statements can be nested within each other. For example:
 
-```
+```js
 let color = "purple";
 if (color == "red") {
   console.log(color);
