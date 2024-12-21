@@ -74,18 +74,22 @@ Console view:
 
 <img src="../../media/3_5_3.png" alt="Image description" width="200">
 
-## 4. to Precision : this method converts a numeric value to a string with a specified length. It is essentially the same as the .toFixed() method, but the return type is a string. And instead of specifying the number of decimal places, we are specifying the number of characters in total, or the length of the string:
-      syntax: .toPrecision(n)
-      examples:
+#### 4. to Precision : this method converts a numeric value to a string with a specified length. It is essentially the same as the .toFixed() method, but the return type is a string. And instead of specifying the number of decimal places, we are specifying the number of characters in total, or the length of the string:
+
+syntax: .toPrecision(n)
+
+examples:
+
 ```js
 let grade = 87.2267;
 console.log("My grade is " + grade.toPrecision(4));
 console.log("My grade is " + grade.toPrecision(3));
 console.log("My grade is " + grade.toPrecision(2));
 ```
+
 Console view: 
 
-<img src="../../media/3_5_4.png" alt="Image description" width="200">
+<img src="../../media/3_5_4.png" alt="Image description" width="200" left="0">
 
 
 ### Exercise 3.5

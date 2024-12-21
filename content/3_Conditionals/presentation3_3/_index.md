@@ -56,6 +56,9 @@ let referenceWords = new String("Have a really great day, like maybe even the be
 * The purpose of learning about the difference between primitive and reference types is to understand the use of JavaScript methods.
 * JavaScript methods exist for the different objects in the JavaScript library.
 * An object's method is essentially a function that was programmed as a property of that object, and therefore we can invoke the function similarly to how we retrieve any property of an object: objectName.objectMethod()
+
+---
+
 * We have not yet covered functions, so we will not learn about writing object methods until the next section.
 * Instead, this lesson focuses on using the object methods already built into the JavaScript library.
 
