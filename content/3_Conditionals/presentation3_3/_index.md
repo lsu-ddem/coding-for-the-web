@@ -12,6 +12,7 @@ hidden: true
 * Remember that objects store multiple values within one variable, and their values are attributed to their "properties"
 * We can obtain the value of an object's property by typing the objectName.objectProperty
 * There is a difference between typical variables and objects that we have not yet discussed, and that is the difference between primitive values and reference values.
+
 ---
 
 * Primitive values are simply values stored to variables without creating new objects.
