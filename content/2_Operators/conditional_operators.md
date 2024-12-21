@@ -10,13 +10,13 @@ weight: 5
 
 [slides](../presentation2_5)
 
-# Conditional Operators 
+### Conditional Operators 
 
 * JavaScript's conditional operator can be used as a shorthand for conditional statements(these are covered in a later lesson). 
 * The conditional operator assigns a value to a variable according to the result of a specified condition (a real world example: if the weather is cold outside, you choose to wear a coat. If it isn’t you don’t. Checking the weather is the condition). 
 * The conditional operator has a specified syntax(way of writing/coding) instead of a single operator.
 ---
-# 1. Conditional : used to test the relationship between a variable's value and another variable's value, using the comparison operators
+#### 1. Conditional : used to test the relationship between a variable's value and another variable's value, using the comparison operators
 * Syntax: variablename = (condition) ? value1:value2
 * Examples:
 ```
@@ -33,13 +33,13 @@ currentSky = time <= 1650 ? "light" : "dark";
 ```
 * What is the result of the comparison (light or dark)?
 ---
-# Logical Operators 
+#### Logical Operators 
 
 * JavaScript's logical operators are used to determine whether an entire statement/condition is true or false depending on the operation and values involved.
 * These can be used to assign boolean values to variables or to determine the next course of action in conditional statements.
 * The logical operators have symbols known as the operators that are used to perform the operations
 ---
-## 1. And : if the values on both sides of the operand are true, then the operation returns true. If one is false, the operation returns false. If both are false, the operation returns false.
+##### 1. And : if the values on both sides of the operand are true, then the operation returns true. If one is false, the operation returns false. If both are false, the operation returns false.
 * Operator: &&
 * Examples:
 ```
@@ -49,7 +49,7 @@ j = 19;
 z = x > 10 && y < 50; //returns true
 ```
 ---
-## 2. Or : if one or more values are true, the entire statement returns true. Only if both sides of the operand are true does the entire statement return true
+##### 2. Or : if one or more values are true, the entire statement returns true. Only if both sides of the operand are true does the entire statement return true
 * Operator: ||
 * Examples:
 ```
@@ -58,7 +58,7 @@ y = 30;
 z = x > 10 || y < 15; //returns true because the left side is true, even though the right side is false
 ```
 ---
-## 3. Not : the not operator returns the opposite of the value it is operating on.
+##### 3. Not : the not operator returns the opposite of the value it is operating on.
 * Operator: !
 * Examples:
 ```
@@ -68,7 +68,7 @@ z = !x; //returns true
 z = !y; //returns false
 ```
 ---
-# Exercise 2.5
+#### Exercise 2.5
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="WbeREWN" data-pen-title="Exercise 2.5" data-user="lsuddem" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/lsuddem/pen/WbeREWN">
