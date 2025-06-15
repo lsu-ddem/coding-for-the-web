@@ -1,5 +1,5 @@
 ---
-title: Basic HTML Document Setup 
+title: Basic HTML Document Setup
 weight: 2
 ---
 
@@ -103,7 +103,7 @@ Seperate CSS and JavaScript pages are usually called styles.css and scripts.js. 
 
 In the very beginning of the class, we learned how to add an image to HTML. We will do a brief refresher on that, and then learn how to link to another page, element, and external website.
 
-To add an image to our webpage, we use the <img> tag. This tag does not need a closing tag. Inside the tag, we will use the attribute src (which is short for source, and is basically the link to the image!). We will then 
+To add an image to our webpage, we use the ```<img>``` tag. This tag does not need a closing tag. Inside the tag, we will use the attribute src (which is short for source, and is basically the link to the image!). We will then 
 add our link in quotes. We can either set the size of our image in CSS, or we can actually set it in the HTML tag, like in the example below. 
 
 Remember to check that images you are using are not Copyrighted! The image below is from this website: https://unsplash.com/
@@ -131,9 +131,9 @@ Example in Codepen:
 
 #### Linking to an element on the same page
 
-The following example in codepen shows how we can use a tags to link to other elements on the same page. The example contains an unordered list (with bulletpoints instead of numbers!) Each list item (<li>) contains an <a> element with a href which refers to the id of another element. In this case, three different poem titles. When each item is clicked, the page will jump to the element with the corresponding id. 
+The following example in codepen shows how we can use a tags to link to other elements on the same page. The example contains an unordered list (with bulletpoints instead of numbers!) Each list item (```<li>```) contains an <a> element with a href which refers to the id of another element. In this case, three different poem titles. When each item is clicked, the page will jump to the element with the corresponding id. 
 
-Notice the use of <br> for line breaks, and <b> </b> for bold! (<br> does not need a closing tag!)
+Notice the use of ```<br>``` for line breaks, and ```<b> </b>``` for bold! (```<br>``` does not need a closing tag!)
 
 Example in Codepen:
 
