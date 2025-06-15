@@ -112,7 +112,7 @@ Remember to check that images you are using are not Copyrighted! The image below
 <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2831&q=80" height="200">
 ```
 
-In order to add a hyperlink to our HTML, we use the <a> tag. Inside that tag, we use the href attribute (similar to the src attribute! This time, href means the hypertext reference, again, basically the link itself), then we put our destination link, in quotes, for example:
+In order to add a hyperlink to our HTML, we use the ```<a>``` tag. Inside that tag, we use the href attribute (similar to the src attribute! This time, href means the hypertext reference, again, basically the link itself), then we put our destination link, in quotes, for example:
 
 ```html
 <h2>
@@ -131,7 +131,7 @@ Example in Codepen:
 
 #### Linking to an element on the same page
 
-The following example in codepen shows how we can use a tags to link to other elements on the same page. The example contains an unordered list (with bulletpoints instead of numbers!) Each list item (```<li>```) contains an <a> element with a href which refers to the id of another element. In this case, three different poem titles. When each item is clicked, the page will jump to the element with the corresponding id. 
+The following example in codepen shows how we can use a tags to link to other elements on the same page. The example contains an unordered list (with bulletpoints instead of numbers!) Each list item (```<li>```) contains an ```<a>``` element with a href which refers to the id of another element. In this case, three different poem titles. When each item is clicked, the page will jump to the element with the corresponding id. 
 
 Notice the use of ```<br>``` for line breaks, and ```<b> </b>``` for bold! (```<br>``` does not need a closing tag!)
 
