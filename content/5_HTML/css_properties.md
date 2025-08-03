@@ -1,5 +1,5 @@
 ---
-title: CSS Properties - Color, Font-family, Size Units and Position 
+title: CSS Properties - Color, Font-family, Size Units and Position
 weight: 5
 ---
 
@@ -125,7 +125,7 @@ https://htmlcolorcodes.com/
 
 * In the panel, you will see a section that says "Use on the web." Here, you can choose either <link> or @import. Choose the @import option. 
 
-* Select everything in the <style> tag, including the opening and closing tags, and copy it. Then, paste it into your HTML. 
+* Select everything in the ```<style>``` tag, including the opening and closing tags, and copy it. Then, paste it into your HTML. 
 
 * Now, you can use this google font for any of your HTML elements. Simply copy the CSS font-familly property provided by google fonts and apply it to the element(s) of your choice. You can load as many google fonts into your HTML as you want. 
 

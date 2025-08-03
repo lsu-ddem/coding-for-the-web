@@ -96,7 +96,7 @@ weight: 0
 * [5.5 : CSS Properties - Color, Font-family, Size Units and Position](https://coding-for-the-web.lsupathways.org/5_html/css_properties/)
 * [5.6 : Flex Box](https://coding-for-the-web.lsupathways.org/5_html/flex_box/)
 * [5.7 : createElement, appendChild, classList](https://coding-for-the-web.lsupathways.org/5_html/createelement/)
-* [5.8 : 5.8 Constructor Functions & Classes](https://coding-for-the-web.lsupathways.org/5_html/constructor_functions/)
+* [5.8 : Constructor Functions & Classes](https://coding-for-the-web.lsupathways.org/5_html/constructor_functions/)
 
 #### Labs:
 
@@ -142,6 +142,7 @@ weight: 0
 * [8.3 : Forms & Regular Expressions](https://coding-for-the-web.lsupathways.org/8_advanced/form_validation/)
 * [8.4 : Debugging your Code](https://coding-for-the-web.lsupathways.org/8_advanced/debugging/)
 * [8.5 : Javascript & Security](https://coding-for-the-web.lsupathways.org/8_advanced/javascript_security/)
+* [8.6 : Javascript Characteristics](https://coding-for-the-web.lsupathways.org/8_advances/javascript_char/)
 
 ### [9. Misc Topics](https://coding-for-the-web.lsupathways.org/9_misc/)
 
