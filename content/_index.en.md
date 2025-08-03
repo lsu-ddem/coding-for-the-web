@@ -142,7 +142,7 @@ weight: 0
 * [8.3 : Forms & Regular Expressions](https://coding-for-the-web.lsupathways.org/8_advanced/form_validation/)
 * [8.4 : Debugging your Code](https://coding-for-the-web.lsupathways.org/8_advanced/debugging/)
 * [8.5 : Javascript & Security](https://coding-for-the-web.lsupathways.org/8_advanced/javascript_security/)
-* [8.6 : Javascript Characteristics](https://coding-for-the-web.lsupathways.org/8_advances/javascript_char/)
+* [8.6 : Javascript Characteristics](https://coding-for-the-web.lsupathways.org/8_advanced/javascript_char/)
 
 ### [9. Misc Topics](https://coding-for-the-web.lsupathways.org/9_misc/)
 
